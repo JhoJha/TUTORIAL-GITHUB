@@ -1,0 +1,97 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Fondo general más cómodo para la vista */
+body {
+  background-color: #fdf6e3;
+  color: #2c3e50;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabecera lateral izquierda */
+header {
+  max-width: 240px;
+  padding: 2rem 1rem;
+  background-color: #f8f1d9;
+  border-right: 1px solid #e0dbca;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Sección de contenido principal */
+section {
+  margin-left: 260px;
+  max-width: 850px;
+  padding: 2rem 2rem;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+/* Enlaces */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navegación horizontal personalizada si la usas */
+nav {
+  background-color: #f8f1d9;
+  border-bottom: 1px solid #e0dbca;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Código inline */
+code {
+  background-color: #eee8d5;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-size: 0.95em;
+}
+
+/* Tablas más bonitas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+}
+
+th {
+  background-color: #f0ead6;
+}
+
+/* 🔁 Adaptar layout en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0dbca;
+  }
+
+  section {
+    margin-left: 0;
+    padding: 1rem;
+    max-width: 100%;
+  }
+}
