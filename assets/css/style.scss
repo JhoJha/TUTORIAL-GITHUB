@@ -78,3 +78,20 @@ th, td {
 th {
   background-color: #f0ead6;
 }
+
+/* 🔁 Adaptar layout en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  header {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e0dbca;
+  }
+
+  section {
+    margin-left: 0;
+    padding: 1rem;
+    max-width: 100%;
+  }
+}
