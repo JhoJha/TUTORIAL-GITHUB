@@ -1,0 +1,36 @@
+---
+---
+
+@import "{{ site.theme }}"; // Importa primero el tema base (Cayman)
+
+/* 🔵 Ajusta el ancho y legibilidad */
+body {
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+/* 🔷 Encabezados */
+h1, h2, h3 {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+/* 🔗 Enlaces */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🟡 Badges y callouts */
+blockquote {
+  border-left: 4px solid #facc15;
+  padding-left: 1rem;
+  background-color: #fffbe6;
+  color: #555;
+}
