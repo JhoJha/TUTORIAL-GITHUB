@@ -1,3 +1,14 @@
-title: Tutorial GitHub
-description: Guía práctica para aprender GitHub colaborativamente
-theme: 	jekyll-theme-cayman
+theme: jekyll-theme-cayman
+title: Tutorial de GitHub
+description: Guía colaborativa para dominar GitHub
+author: Jhon Villegas
+url: "https://jhojha.github.io/TUTORIAL-GITHUB/"
+
+# Menú superior
+nav:
+  - title: "Inicio"
+    url: /
+  - title: "Tutorial"
+    url: /index.html
+  - title: "Repositorio"
+    url: https://github.com/JhoJha/TUTORIAL-GITHUB
