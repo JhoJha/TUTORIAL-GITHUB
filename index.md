@@ -4,18 +4,7 @@ title: "📘 Tutorial Interactivo de GitHub"
 description: "Una guía completa para dominar Issues, Pull Requests, GitHub Pages y más"
 ---
 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/JhoJha/TUTORIAL-GITHUB)](https://github.com/JhoJha/TUTORIAL-GITHUB/issues)
-[![Último commit](https://img.shields.io/github/last-commit/JhoJha/TUTORIAL-GITHUB)](https://github.com/JhoJha/TUTORIAL-GITHUB/commits/main)
-
----
-
 [🏠 Inicio](./index.md) | [📁 Repositorio en GitHub](https://github.com/JhoJha/TUTORIAL-GITHUB) | [📘 Ver TUTORIAL.md](./TUTORIAL.md)
-
----
-
-> 💡 **Tip inicial:**  
-> Usa comandos `git status` y `git log` frecuentemente para revisar el estado de tu repositorio y su historial.
 
 ---
 
@@ -37,37 +26,55 @@ description: "Una guía completa para dominar Issues, Pull Requests, GitHub Page
 
 ## 1. Introducción
 
+Breve explicación de qué es GitHub y su importancia en el trabajo colaborativo
+
 ---
 
 ## 2. Issues
+
+Qué son, para qué sirven, cómo crearlos, asignarlos y cerrarlos. (Incluye capturas o ejemplos si puedes).
 
 ---
 
 ## 3. Pull Requests
 
+Qué es un PR, cómo crearlo, cómo revisarlo y aprobarlo.
+
 ---
 
 ## 4. GitHub Projects
+
+Cómo organizar tareas en tableros tipo Kanban.
 
 ---
 
 ## 5. Automatización con GitHub Actions
 
+Explica qué es y un ejemplo sencillo (por ejemplo, acción que despliegue una web).
+
 ---
 
 ## 6. GitHub Gists
+
+Cómo crear snippets de código públicos o privados.
 
 ---
 
 ## 7. GitHub Pages
 
+Cómo publicar una web desde el repositorio.
+
 ---
 
 ## 8. Codespaces y Dev Editor
 
+Qué son, para qué sirven y ejemplos básicos.
+
 ---
 
 ## 9. Conclusión
+
+Resumen final, utilidad en la vida real, reflexión.
 
 ---
 
