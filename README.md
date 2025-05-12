@@ -25,5 +25,5 @@ Puedes acceder al tutorial completo en el archivo 👉 [`TUTORIAL.md`](./TUTORIA
 ## 👥 Integrantes del grupo
 
 - **Jhon Jhayro Villegas** ([JhoJha](https://github.com/JhoJha))
-- [Nombre del integrante 2] ([usuarioGitHub2](https://github.com/usuarioGitHub2))
+- [Alonso Coronado de la vega] ([ron-62](https://github.com/ron-62))
 - [Nombre del integrante 3] ([usuarioGitHub3](https://github.com/usuarioGitHub3))
