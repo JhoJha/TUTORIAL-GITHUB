@@ -2,7 +2,140 @@
 
 ## 1. Introducción
 
+![Texto alternativo](assets/descar.png)
+
+¿Qué es GitHub?
+**GitHub** es una plataforma en línea donde puedes guardar, compartir y colaborar en código con otras personas usando Git, que es un sistema de control de versiones.
+**su importancia en el trabajo colaborativo**
+GitHub es como una red social para programadores, pero con herramientas para:
+-Guardar proyectos en la nube (repositorios)
+-Trabajar en equipo
+-Reportar errores o mejoras (issues)
+-Proponer cambios (pull requests)
+**cómo ha revolucionado el desarrollo de software**
+GitHub ha tenido un impacto tremendo en la forma en que se desarrolla software. Aquí te explico cómo ha revolucionado el desarrollo:
+
+1. **Facilitó la colaboración global**
+GitHub ha hecho que sea mucho más fácil colaborar con desarrolladores de todo el mundo. Antes, los desarrolladores trabajaban de manera aislada o dependían de herramientas complejas para compartir y fusionar código. Con GitHub, ahora pueden:
+
+Trabajar de manera colaborativa a través de pull requests, donde otros miembros del equipo revisan y sugieren cambios en el código.
+
+Ver el código y hacer comentarios directamente en cada línea (lo que ayuda a resolver problemas y mejorar la calidad).
+
+Gestionar proyectos de manera eficiente utilizando issues, milestones y proyectos.
+
+2. **Control de versiones accesible para todos**
+GitHub utiliza Git, un sistema de control de versiones muy poderoso que permite a los desarrolladores mantener un historial completo de cambios. Esto significa que:
+
+Pueden trabajar en paralelo sin miedo a sobrescribir el trabajo de otros.
+
+Volver atrás a una versión anterior del código si algo sale mal, haciendo más fácil experimentar y probar nuevas ideas sin riesgo.
+
+Los errores se pueden rastrear y solucionar fácilmente, ya que todo está documentado.
+
+Antes de GitHub, la gestión de versiones solo estaba disponible en sistemas complejos que no eran tan accesibles. GitHub hizo que el control de versiones fuera accesible para todos, incluso para personas sin mucha experiencia en el tema.
+
+3. **Descentralización del código**
+GitHub permitió la creación de proyectos "open source" (de código abierto), lo que democratizó el acceso a las herramientas y permitió que miles de personas contribuyeran al mismo proyecto sin estar en la misma ubicación física o tener acceso a un servidor central.
+
+Los proyectos open source crecen de manera orgánica con contribuciones de desarrolladores de todo el mundo.
+
+Cualquier persona puede revisar, aprender, y mejorar el código.
+
+Facilita la creación de comunidades de desarrolladores que trabajan juntos por un propósito común.
+
+4. **Mejora en la calidad del código**
+El sistema de pull requests fomenta que el código sea revisado antes de ser fusionado al proyecto principal. Esto:
+
+Mejora la calidad del código porque cada contribución es evaluada y validada por otros miembros del equipo.
+
+Permite que se detecten errores y problemas de rendimiento antes de que lleguen a producción.
+
+Facilita la implementación de mejores prácticas y estándares de codificación dentro de los equipos.
+
+5. **Documentación accesible y abierta**
+GitHub también cambió la manera en que se documenta el software. Los repositorios pueden tener archivos README, documentación adicional y Wiki integrados, lo que facilita:
+
+Compartir información sobre cómo usar, instalar y contribuir a proyectos.
+
+Mantener documentación actualizada junto al código fuente.
+
+6. **Creación de una comunidad global**
+GitHub no solo es una plataforma para desarrollar software, sino también una comunidad. Las personas pueden:
+
+Seguir a otros desarrolladores, aprender de ellos y contribuir a sus proyectos.
+
+Unirse a organizaciones y colaborar en proyectos grandes y complejos.
+
+Participar en proyectos open source que impactan a toda la industria de software.
+
+GitHub es como una red social para programadores, lo que crea una gran oportunidad de networking y colaboración.
+
+7. **Fomentar la cultura de "open source"**
+GitHub ha promovido la filosofía del código abierto, lo que ha revolucionado la industria de la tecnología. Los proyectos de código abierto pueden ser:
+
+Usados, mejorados y redistribuidos por cualquier persona, lo que acelera la innovación y la evolución tecnológica.
+
+Contribuir a la creación de herramientas, librerías y frameworks de uso gratuito, beneficiando a millones de desarrolladores y empresas.
+
+8. **GitHub como plataforma de aprendizaje**
+GitHub también se ha convertido en una herramienta educativa. Los desarrolladores nuevos pueden:
+
+Explorar proyectos open source para aprender cómo se estructuran y cómo funcionan.
+
+Seguir tutoriales y guías.
+
+Colaborar en proyectos para adquirir experiencia y construir su portafolio.
+
+GitHub tiene una gran comunidad de desarrolladores que se apoyan mutuamente, ayudando a que el aprendizaje sea más accesible.
+
+**Historia de GitHub**
+GitHub es una plataforma en línea para el desarrollo de software colaborativo. Está basada en Git, un sistema de control de versiones creado por Linus Torvalds (el mismo creador de Linux).
+
+Línea de tiempo:
+2005: Git es creado por Linus Torvalds.
+
+2008: GitHub es fundado por Tom Preston-Werner, Chris Wanstrath, P. J. Hyett y Scott Chacon.
+
+2010s: GitHub se vuelve muy popular entre desarrolladores y empresas como una herramienta para compartir código y colaborar en proyectos.
+
+2018: Microsoft compra GitHub por $7.5 mil millones de dólares.
+
+Hoy: Es la plataforma de colaboración de código más usada del mundo, con más de 100 millones de desarrolladores.
+
+**Objetivos de GitHub**
+
+*Colaboración en proyectos de software*
+GitHub permite que muchos desarrolladores trabajen juntos en un mismo proyecto, desde cualquier lugar del mundo.
+
+*Control de versiones*
+Guarda un historial completo de cambios en el código. Puedes volver atrás, comparar versiones y ver quién hizo qué cambio.
+
+*Compartir código*
+Puedes publicar tu proyecto para que otros lo vean, lo usen o contribuyan (repositorios públicos) o mantenerlo privado.
+
+*Revisión y mejora del código*
+Los equipos pueden usar pull requests y code reviews para revisar y mejorar el código antes de integrarlo.
+
+*Gestión de proyectos*
+GitHub permite usar issues, boards (tableros tipo Kanban), wikis y más para organizar tareas y documentar el proyecto.
+
+*Automatización (CI/CD)*
+GitHub Actions permite automatizar pruebas, despliegues, compilaciones y más.
+
+
+
+
+
+
+
+
+
+
+
+
 Breve explicación de qué es GitHub y su importancia en el trabajo colaborativo.
+
 
 ## 2. Issues
 
