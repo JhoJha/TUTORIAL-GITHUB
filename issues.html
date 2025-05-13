@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proceso de Gestión de Issues</title>
+  <style>
+    body { font-family: Arial; margin: 40px; }
+    label { font-weight: bold; display: block; margin-top: 15px; }
+    input, textarea, select, button {
+      width: 100%; padding: 8px; margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Formulario de Proceso de Issues</h1>
+
+  <form id="issueForm">
+    <label for="titulo">Título del Issue:</label>
+    <input type="text" id="titulo" required>
+
+    <label for="descripcion">Descripción del Issue:</label>
+    <textarea id="descripcion" rows="4" required></textarea>
+
+    <label for="etiquetas">Etiquetas:</label>
+    <select id="etiquetas" multiple>
+      <option value="bug">🐞 Bug</option>
+      <option value="feature">✨ Feature</option>
+      <option value="documentación">📚 Documentación</option>
+      <option value="tarea">📝 Tarea</option>
+    </select>
+
+    <label for="responsable">Asignado a (@usuario):</label>
+    <input type="text" id="responsable" placeholder="@usuario">
+
+    <label for="relacion">Relacionado con PR o rama:</label>
+    <input type="text" id="relacion" placeholder="#123, feature/login">
+
+    <label for="estado">Estado del Issue:</label>
+    <select id="estado">
+      <option value="abierto">Abierto</option>
+      <option value="en_progreso">En progreso</option>
+      <option value="resuelto">Resuelto</option>
+      <option value="cerrado">Cerrado</option>
+    </select>
+
+    <br><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    document.getElementById('issueForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const data = {
+        titulo: document.getElementById('titulo').value,
+        descripcion: document.getElementById('descripcion').value,
+        etiquetas: Array.from(document.getElementById('etiquetas').selectedOptions).map(opt => opt.value),
+        responsable: document.getElementById('responsable').value,
+        relacion: document.getElementById('relacion').value,
+        estado: document.getElementById('estado').value,
+      };
+
+      console.log("📋 Datos del Issue:");
+      console.log(data);
+
+      alert("✅ Proceso simulado. Los datos se han enviado a la consola (F12).");
+    });
+  </script>
+
+</body>
+</html>

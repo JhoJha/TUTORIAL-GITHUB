@@ -188,7 +188,7 @@ Título: "Agregar 'mochila' a la lista de compras"
 
 Descripción:
 
-"Olvidé agregar 'mochila' a la lista de compras. Debe añadirse al final de la lista."
+"no agregué 'mochila' a la lista de compras. Debe añadirse al final de la lista."
 
 Etiqueta: documentation
 
