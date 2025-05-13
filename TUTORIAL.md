@@ -250,7 +250,6 @@ Si se tiene el caso de que se quiere contribuir a un repositorio público, pero 
 * Crear una nueva rama ```bash git checkout -b mi-rama-de-cambios```
 * Realizar cambios y hacer commit de los cambios.
 2. Generar un archivo *patch* que contendra las diferencias de la versión local y la original.
-``` bash git diff > cambios.patch ```
 3. Enviar el archivo al propietario por medio de GitHub, usar un issue para esto.
 * Dirigirse al repositorio en GitHub donde se desea contribuir.
 * Ir a la pestaña Issues y crear un nuevo issue.
@@ -263,7 +262,7 @@ Si se tiene el caso de que se quiere contribuir a un repositorio público, pero 
 5. Adjuntar el archivo como enlace.
 * Subirlo antes a una plataforma de almacenamiento como Google Drive.
 6. Revisar y enviar el issue.
-> El autor debera revisar el contenido con git status y visualizara las diferencias con git diff, ejecutar git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]". En caso quiera subir los cambios.
+> El autor debera revisar el contenido con git status y visualizara las diferencias con git diff, ejecutar git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]". En caso quiera subir los cambios.bash git diff > cambios.patch ```
 
 **Incluir buenas prácticas para revisiones de código.**
 
