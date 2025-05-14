@@ -278,6 +278,63 @@ Explica qué es y un ejemplo sencillo (por ejemplo, acción que despliegue una w
 
 ## 6. GitHub Gists
 
+**¿Que es un Gists?**
+
+Un Gist es una funcionalidad de GitHub que te permite compartir fácilmente fragmentos de código, notas, configuraciones o cualquier tipo de archivo de texto. Es como un mini repositorio de Git, ideal para ejemplos pequeños o para compartir ideas rápidamente con otros.
+**¿Para que sirve y como se crea uno?**
+
+**¿Qué puedes hacer con un Gist?**
+-Guardar fragmentos de código o scripts útiles.
+-Compartir ejemplos de configuración (por ejemplo, archivos .bashrc, .gitconfig, etc.).
+-Crear notas rápidas o documentación técnica.
+-Hacer anotaciones o listas (por ejemplo, TODOs o recordatorios).
+ 
+ **¿Como se crea un Gists?**
+
+-Accede al repositorio
+-Coloca Un nombre de archivo (por ejemplo, mi-script.py).
+-El contenido del archivo (código o texto).
+-Una descripción opcional.
+-Coloca si quieres que sea Público o Secreto.
+-Haz clic en "Create public gist" o "Create secret gist".
+
+**Comparar Gist con un repositorio tradicional**
+
+*Comparación: Gist vs. Repositorio GitHub*
+
+*Objetivo principal Gist*	Compartir rápidamente fragmentos de código, notas o scripts.	
+*Objetivo principal Repositorio GitHub* Desarrollar y mantener proyectos completos.
+
+*Tamaño del contenido Gist*	Archivos individuales o pocos archivos.	
+*Tamaño del contenido Repositorio GitHub* Múltiples archivos y carpetas.
+
+*Interfaz Gist*	Sencilla, centrada en el código.	
+*Interfaz Repositorio GitHub*Completa: incluye issues, wiki, pull requests, etc.
+*Colaboración Gist*	Limitada: otros pueden ver o comentar.	
+*Colaboración  Repositorio GitHub *	Completa: admite colaboradores, forks, PRs.
+*Clonación vía Git en Gist* Sí (git clone https://gist.github.com/...)	
+*Clonación vía Git en Repositorio GitHub* Sí (git clone https://github.com/usuario/repositorio)
+
+**¿Cuándo usar cada uno?**
+
+*Usa un Gist cuando*:
+
+Quieras compartir un código corto o configuración.
+
+No necesites control de versiones avanzado.
+
+Busques una forma rápida y directa de mostrar código.
+
+*Usa un repositorio cuando*:
+
+Trabajes en un proyecto con estructura.
+
+Necesites control de versiones, ramas, historial.
+
+Quieras colaboración activa con otras personas.
+
+
+Explicar qué es un Gist, para qué sirve y cómo se crea uno. Comparar brevemente con un repositorio tradicional. Incluir un ejemplo.
 Cómo crear snippets de código públicos o privados.
 
 ## 7. GitHub Pages
