@@ -20,3 +20,15 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:basename/
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: default
