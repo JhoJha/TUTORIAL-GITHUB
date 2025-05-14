@@ -244,25 +244,7 @@ Si tienes permisos para hacerlo y ya hay al menos una aprobación, verás un bot
 Haz clic en ese botón para fusionar los cambios con la rama principal (por ejemplo, main).
 
 Luego, haz clic en "Confirm merge".
-**Pull Requests de un Repositorio público desde una rama local**
-Si se tiene el caso de que se quiere contribuir a un repositorio público, pero no es posible realizar un fork ni se es colaborador, entonces optamos por esta opción:
-1. Clonar el repositorio
-* Crear una nueva rama ```bash git checkout -b mi-rama-de-cambios```
-* Realizar cambios y hacer commit de los cambios.
-2. Generar un archivo *patch* ``` git format-patch origin/main ``` que contendra las diferencias de la versión local y la original.
-3. Enviar el archivo al propietario por medio de GitHub, usar un issue para esto.
-* Dirigirse al repositorio en GitHub donde se desea contribuir.
-* Ir a la pestaña Issues y crear un nuevo issue.
-4. Escribir el título y la descripción.
-5. Especificar como el autor tiene que ejecutar el archivo en caso desee aceptar la contribución. 
-* Descargar el archivo.
-* Tener clonado el repositorio original.
-* Guardar dentro del repositorio el archivo adjuntado.
-* Ejecutar```git am cambios.patch``` en el git. 
-5. Adjuntar el archivo como enlace.
-* Subirlo antes a una plataforma de almacenamiento como Google Drive.
-6. Revisar y enviar el issue.
-> El autor debera revisar el contenido con git status y visualizara las diferencias con git diff, ejecutar git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]". En caso quiera subir los cambios: 
+
 
 **Incluir buenas prácticas para revisiones de código.**
 

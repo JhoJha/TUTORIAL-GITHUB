@@ -1,0 +1,43 @@
+From a2732c0c7fe734648f42deb920460b949b1e9841 Mon Sep 17 00:00:00 2001
+From: Domini <alfarodomini@gmail.com>
+Date: Tue, 13 May 2025 20:03:33 -0500
+Subject: [PATCH 4/5] =?UTF-8?q?Informaci=C3=B3n=20extra=20sobre=20el=20Pul?=
+ =?UTF-8?q?l=20Requests?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ TUTORIAL.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/TUTORIAL.md b/TUTORIAL.md
+index f22a9be..b9281fa 100644
+--- a/TUTORIAL.md
++++ b/TUTORIAL.md
+@@ -244,7 +244,7 @@ Si se tiene el caso de que se quiere contribuir a un repositorio público, pero
+ 1. Clonar el repositorio
+ * Crear una nueva rama ```bash git checkout -b mi-rama-de-cambios```
+ * Realizar cambios y hacer commit de los cambios.
+-2. Generar un archivo *patch* que contendra las diferencias de la versión local y la original.
++2. Generar un archivo *patch* ``` bash git diff > cambios.patch ``` que contendra las diferencias de la versión local y la original.
+ 3. Enviar el archivo al propietario por medio de GitHub, usar un issue para esto.
+ * Dirigirse al repositorio en GitHub donde se desea contribuir.
+ * Ir a la pestaña Issues y crear un nuevo issue.
+@@ -253,11 +253,11 @@ Si se tiene el caso de que se quiere contribuir a un repositorio público, pero
+ * Descargar el archivo.
+ * Tener clonado el repositorio original.
+ * Guardar dentro del repositorio el archivo adjuntado.
+-* Ejecutar```bash git apply cambios.patch``` en el git.
++* Ejecutar```git am cambios.patch``` en el git. 
+ 5. Adjuntar el archivo como enlace.
+ * Subirlo antes a una plataforma de almacenamiento como Google Drive.
+ 6. Revisar y enviar el issue.
+-> El autor debera revisar el contenido con git status y visualizara las diferencias con git diff, ejecutar git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]". En caso quiera subir los cambios: ``` bash git diff > cambios.patch ```
++> El autor debera revisar el contenido con git status y visualizara las diferencias con git diff, ejecutar git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]". En caso quiera subir los cambios: 
+ 
+ **Incluir buenas prácticas para revisiones de código.**
+ 
+-- 
+2.49.0.windows.1
+
