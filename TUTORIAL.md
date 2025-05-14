@@ -250,14 +250,16 @@ Luego, haz clic en "Confirm merge".
 - Revisa con atención, no con apuro
 
 - Verifica que el cambio cumple su objetivo
-
+Link de nuestro gist : 
 - Revisa estilo y format
 
 - Evalúa la estructura del código
 
 - Asegúrate de que el código tenga pruebas
 
-- Detecta posibles errores o riesgos
+- Detecta 
+
+posibles errores o riesgos
 ¿Hay código que podría fallar con ciertos datos?
 
 - Sugiere mejoras, no solo señalas problemas
@@ -267,31 +269,32 @@ Luego, haz clic en "Confirm merge".
 - Revisa solo lo necesario
 Si un PR es demasiado grande, sugiere dividirlo.
 
+## 4. GitHub Gists
 
-## 4. GitHub Projects
+¿Que es GitHub gist?
 
-Cómo organizar tareas en tableros tipo Kanban.
+Es una forma de compartir un codigo, notas o fragmentos a tus compañeros de trabajo.
 
-## 5. Automatización con GitHub Actions
+¿Como creo mi gist?
 
-Explica qué es y un ejemplo sencillo (por ejemplo, acción que despliegue una web).
+- **Paso 1:** Entrar a tu cuenta de GitHub.
 
-## 6. GitHub Gists
+- **Paso 2**: Dar click en el signo "+" parte superior derecha e ir a la opcion "New gist"
 
-Cómo crear snippets de código públicos o privados.
+- **Paso 3:** Poner una descripcion de lo que hace tu codigo, en filename... colocar "Nombre_archivo.py" se hara con formato python para este ejemplo.
 
-## 7. GitHub Pages
+- **Paso 4:** Copias tu codigo Python con su documentacion.
 
-Cómo publicar una web desde el repositorio.
+- **Paso 5:** ir a la parte inferior derecha y dar click en "Create	public gist" para que tu gist sea publico.
 
-## 8. Codespaces y Dev Editor
+- **Paso 6:** Copiar en la parte de arriba el link de tu gist y comprtir con tus compañeros para que puedan editarlo y comentarlo.
 
-Qué son, para qué sirven y ejemplos básicos.
 
-## 9. Conclusión
+El link de nuestro gist es:
 
-Resumen final, utilidad en la vida real, reflexión.
+[Bucles de python](https://gist.github.com/FernandoRuiz345/65956c4966016de2ba39a4cf79cedb82)
 
-## 10. Créditos
 
-Nombres completos, usuarios GitHub y aportes.
+Tambien podemos agregar otros formatos, como por ejemplo, R, txt, md, ipynb, etc pero si desean incluir mas documentos es preferible usar el repositorio general, ya que gist esta mas centrado en un archivo o 2 a lo mucho.
+
+

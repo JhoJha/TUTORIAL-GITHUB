@@ -15,7 +15,6 @@ Este repositorio contiene una guía completa y práctica sobre el uso de GitHub.
 - GitHub Dev Editor
 
 Puedes acceder al tutorial completo en el archivo 👉 [`TUTORIAL.md`](./TUTORIAL.md)
-
 ## Objetivos del proyecto
 
 - Comprender el funcionamiento de las principales herramientas de GitHub
@@ -26,7 +25,7 @@ Puedes acceder al tutorial completo en el archivo 👉 [`TUTORIAL.md`](./TUTORIA
 
 - **Jhon Jhayro Villegas** ([JhoJha](https://github.com/JhoJha))
 - **Alonso Coronado de la vega** ([ron-62](https://github.com/ron-62))
-- [Nombre del integrante 3] ([usuarioGitHub3](https://github.com/usuarioGitHub3))
+- **Fernando Jose Ruiz Macedo** ([FernandoRuiz345](https://github.com/FernandoRuiz345))
 
 ---
 
