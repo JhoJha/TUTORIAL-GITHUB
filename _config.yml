@@ -1,6 +1,6 @@
 title: "Tutorial de GitHub"
 description: "Guía colaborativa para dominar GitHub"
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 url: "https://jhojha.github.io"
 baseurl: "/TUTORIAL-GITHUB"
