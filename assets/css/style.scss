@@ -13,24 +13,6 @@ body {
   padding: 0;
 }
 
-/* Cabecera lateral izquierda */
-header {
-  max-width: 240px;
-  padding: 2rem 1rem;
-  background-color: #f8f1d9;
-  border-right: 1px solid #e0dbca;
-  position: fixed;
-  height: 100%;
-  overflow-y: auto;
-}
-
-/* Sección de contenido principal */
-section {
-  margin-left: 260px;
-  max-width: 850px;
-  padding: 2rem 2rem;
-}
-
 /* Títulos */
 h1, h2, h3 {
   color: #1a1a1a;
@@ -82,11 +64,7 @@ th {
 /* 🔁 Adaptar layout en pantallas pequeñas */
 @media screen and (max-width: 768px) {
   header {
-    position: relative;
-    max-width: 100%;
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid #e0dbca;
+    display: none;
   }
 
   section {
@@ -94,4 +72,16 @@ th {
     padding: 1rem;
     max-width: 100%;
   }
+}
+
+/* Ocultar completamente el bloque lateral izquierdo */
+header {
+  display: none;
+}
+
+/* Expandir contenido principal a todo el ancho */
+section {
+  margin-left: 0;
+  max-width: 100%;
+  padding: 2rem;
 }
