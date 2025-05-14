@@ -123,19 +123,7 @@ GitHub permite usar issues, boards (tableros tipo Kanban), wikis y más para org
 *Automatización (CI/CD)*
 GitHub Actions permite automatizar pruebas, despliegues, compilaciones y más.
 
-
-
-
-
-
-
-
-
-
-
-
 Breve explicación de qué es GitHub y su importancia en el trabajo colaborativo.
-
 
 ## 2. Issues
 
@@ -196,9 +184,6 @@ Descripción:
 "no agregué 'mochila' a la lista de compras. Debe añadirse al final de la lista."
 
 Etiqueta: documentation
-
-
-
 
 ## 3. Pull Requests
 
@@ -269,11 +254,60 @@ posibles errores o riesgos
 - Revisa solo lo necesario
 Si un PR es demasiado grande, sugiere dividirlo.
 
+<<<<<<< HEAD
 ## 4. GitHub Gists
 
 ¿Que es GitHub gist?
 
 Es una forma de compartir un codigo, notas o fragmentos a tus compañeros de trabajo.
+=======
+## 4. GitHub Projects
+
+GitHub Projects es una herramienta poderosa para gestionar tareas dentro de un repositorio usando tableros tipo Kanban. Permite organizar visualmente el progreso del equipo, planificar tareas, dar seguimiento a lo pendiente y mantener el enfoque en los objetivos del proyecto.
+
+---
+
+## ¿Para qué sirve GitHub Projects?
+
+- Visualizar el avance de un proyecto en tiempo real.
+- Asignar tareas específicas a cada integrante del equipo.
+- Priorizar tareas y dividir el trabajo por etapas.
+- Facilitar la colaboración y la transparencia.
+- Reemplazar herramientas externas de gestión como Trello o Notion, todo **dentro de GitHub**.
+
+---
+
+## ¿Cómo lo usamos en este proyecto?
+
+En este tutorial colaborativo, usamos **GitHub Projects** para organizar la creación de cada sección del contenido, asegurando que todos los temas fueran cubiertos de manera progresiva y coordinada. Creamos un tablero Kanban con tres columnas:
+
+- **Por hacer**: Secciones pendientes por escribir.
+- **En progreso**: Secciones que alguien ya está desarrollando.
+- **Terminado**: Secciones completadas y revisadas.
+
+---
+
+### Vista del proyecto (estado general)
+
+![Vista del tablero de proyecto con tareas abiertas](assets/proyectos_open.png)
+
+---
+
+### Vista del tablero Kanban con tareas distribuidas
+
+![Tablero Kanban con tareas distribuidas por estado](assets/proyectos_board.png)
+
+---
+
+## Beneficios reales para este repositorio
+
+- Nos permitió distribuir las responsabilidades entre los integrantes.
+- Cada quien sabía qué debía hacer, evitando duplicidad o desorden.
+- Hicimos seguimiento claro del progreso, viendo qué faltaba y qué estaba listo.
+- Sirvió como evidencia visual del trabajo realizado durante la exposición del proyecto.
+
+---
+>>>>>>> 6a8a710d29fdeb4d2f682a867af531bce2f8ca08
 
 ¿Como creo mi gist?
 
@@ -292,9 +326,31 @@ Es una forma de compartir un codigo, notas o fragmentos a tus compañeros de tra
 
 El link de nuestro gist es:
 
+<<<<<<< HEAD
 [Bucles de python](https://gist.github.com/FernandoRuiz345/65956c4966016de2ba39a4cf79cedb82)
 
 
 Tambien podemos agregar otros formatos, como por ejemplo, R, txt, md, ipynb, etc pero si desean incluir mas documentos es preferible usar el repositorio general, ya que gist esta mas centrado en un archivo o 2 a lo mucho.
+=======
+El uso de GitHub no solo transforma la manera en que se gestiona el código, sino también la forma en que los equipos colaboran, se comunican y aprenden juntos. A lo largo de este tutorial, hemos explorado herramientas clave como Issues, Pull Requests, Projects, Gists, GitHub Pages y más. Cada una de estas funciones cumple un rol fundamental dentro del flujo de trabajo moderno en el desarrollo de software.
+
+GitHub es mucho más que un simple repositorio de archivos:  
+Es una **plataforma de colaboración global** que fomenta la transparencia, la organización, la revisión constante del código y la mejora continua. 
+
+Entre los aprendizajes más importantes que este tutorial nos deja, destacamos:
+
+- La importancia del **control de versiones** para el trabajo ordenado y reversible.
+- El valor de la **colaboración estructurada** mediante herramientas como Issues y Pull Requests.
+- Cómo utilizar GitHub como un espacio para **documentar, automatizar y compartir proyectos**.
+- El poder de la comunidad y la filosofía **open source**, que nos invita a contribuir y aprender constantemente.
+
+Este conocimiento no solo es útil para trabajar en equipo, sino también para tu crecimiento profesional individual, ya que dominar GitHub es una habilidad esencial en cualquier área relacionada con la tecnología y el desarrollo.
+
+---
+
+> "No se trata solo de escribir código, sino de construir soluciones juntos."
+
+Gracias por llegar hasta aquí.
+>>>>>>> 6a8a710d29fdeb4d2f682a867af531bce2f8ca08
 
 
