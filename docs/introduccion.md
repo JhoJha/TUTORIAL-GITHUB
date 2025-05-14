@@ -1,6 +1,6 @@
 # 1. Introducción
 
-![Texto alternativo](assets/descar.png)
+![Texto alternativo](../assets/descar.png)
 
 ¿Qué es GitHub?
 **GitHub** es una plataforma en línea donde puedes guardar, compartir y colaborar en código con otras personas usando Git, que es un sistema de control de versiones.
