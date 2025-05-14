@@ -249,7 +249,7 @@ Si se tiene el caso de que se quiere contribuir a un repositorio público, pero 
 1. Clonar el repositorio
 * Crear una nueva rama ```bash git checkout -b mi-rama-de-cambios```
 * Realizar cambios y hacer commit de los cambios.
-2. Generar un archivo *patch* ``` bash git diff > cambios.patch ``` que contendra las diferencias de la versión local y la original.
+2. Generar un archivo *patch* ``` git format-patch origin/main ``` que contendra las diferencias de la versión local y la original.
 3. Enviar el archivo al propietario por medio de GitHub, usar un issue para esto.
 * Dirigirse al repositorio en GitHub donde se desea contribuir.
 * Ir a la pestaña Issues y crear un nuevo issue.
