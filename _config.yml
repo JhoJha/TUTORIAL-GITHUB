@@ -9,15 +9,9 @@ search_enabled: true
 nav_sort: case_insensitive
 color_scheme: light
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
-
-
 sass:
+  sass_dir: assets/css
   style: compressed
-
 
 include:
   - assets/css
