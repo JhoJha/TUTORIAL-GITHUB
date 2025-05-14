@@ -1,8 +1,13 @@
 ---
 layout: default
-title: "📘 Tutorial Interactivo de GitHub"
-description: "Una guía completa para dominar Issues, Pull Requests, GitHub Pages y más"
+title: "Inicio"
+nav_order: 0
+has_children: true
 ---
+
+# Bienvenido al Tutorial de GitHub
+
+Guía colaborativa para dominar GitHub, elaborada por estudiantes de la UNALM.
 
 [🏠 Inicio](./index.md) | [📁 Repositorio en GitHub](https://github.com/JhoJha/TUTORIAL-GITHUB) | [📘 Ver TUTORIAL.md](./TUTORIAL.md)
 
@@ -10,17 +15,18 @@ description: "Una guía completa para dominar Issues, Pull Requests, GitHub Page
 
 ## 📚 Contenido
 
-- [📚 Contenido](#-contenido)
-- [1. Introducción](#1-introducción)
-- [2. Issues](#2-issues)
-- [3. Pull Requests](#3-pull-requests)
-- [4. GitHub Projects](#4-github-projects)
-- [5. Automatización con GitHub Actions](#5-automatización-con-github-actions)
-- [6. GitHub Gists](#6-github-gists)
-- [7. GitHub Pages](#7-github-pages)
-- [8. Codespaces y Dev Editor](#8-codespaces-y-dev-editor)
-- [9. Conclusión](#9-conclusión)
-- [10. Créditos](#10-créditos)
+- [Bienvenido al Tutorial de GitHub](#bienvenido-al-tutorial-de-github)
+  - [📚 Contenido](#-contenido)
+  - [1. Introducción](#1-introducción)
+  - [2. Issues](#2-issues)
+  - [3. Pull Requests](#3-pull-requests)
+  - [4. GitHub Projects](#4-github-projects)
+  - [5. Automatización con GitHub Actions](#5-automatización-con-github-actions)
+  - [6. GitHub Gists](#6-github-gists)
+  - [7. GitHub Pages](#7-github-pages)
+  - [8. Codespaces y Dev Editor](#8-codespaces-y-dev-editor)
+  - [9. Conclusión](#9-conclusión)
+  - [10. Créditos](#10-créditos)
 
 ---
 
