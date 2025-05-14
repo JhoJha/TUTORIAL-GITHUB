@@ -9,7 +9,7 @@ has_children: true
 
 Guía colaborativa para dominar GitHub, elaborada por estudiantes de la UNALM.
 
-[🏠 Inicio]({{ site.baseurl }}/) | [📁 Repositorio en GitHub](https://github.com/JhoJha/TUTORIAL-GITHUB) | [📘 Ver Tutorial Completo]({{ site.baseurl }}/tutorial)
+[🏠 Inicio]({{ site.baseurl }}/) | [📁 Repositorio en GitHub](https://github.com/JhoJha/TUTORIAL-GITHUB) | [📘 Ver Tutorial Completo]({{ site.baseurl }}/TUTORIAL)
 
 ---
 

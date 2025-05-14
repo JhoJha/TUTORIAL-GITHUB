@@ -1,8 +1,3 @@
----
-title: "Tutorial"
-nav_order: 11
-parent: "Contenido"
----
 
 # 📘 Tutorial de GitHub
 
