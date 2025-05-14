@@ -61,10 +61,14 @@ th {
   background-color: #f0ead6;
 }
 
-/* 🔁 Adaptar layout en pantallas pequeñas */
+/* Layout responsivo para pantallas pequeñas */
 @media screen and (max-width: 768px) {
   header {
-    display: none;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e0dbca;
   }
 
   section {
@@ -74,12 +78,20 @@ th {
   }
 }
 
-/* Ocultar completamente el bloque lateral izquierdo */
+/* ✅ Mover header al final como barra horizontal */
 header {
-  display: none;
+  position: relative !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  padding: 1rem;
+  background-color: #f8f1d9;
+  border-top: 1px solid #e0dbca;
+  border-bottom: none;
+  margin-top: 3rem;
 }
 
-/* Expandir contenido principal a todo el ancho */
+/* ✅ Eliminar estilo de sección lateral */
 section {
   margin-left: 0;
   max-width: 100%;
