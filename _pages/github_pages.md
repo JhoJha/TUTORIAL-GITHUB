@@ -106,11 +106,7 @@ El estilo fue aplicado automáticamente al agregar el SCSS en el `include:` del 
 
 #### 📷 Vista general del sitio web
 
-![Vista general del sitio](../assets/pages_vista_1.png)
-
-#### 📷 Menú de navegación personalizado
-
-![Menú lateral con enlaces](../assets/pages_vista_2.png)
+![Vista general del sitio]({{ site.baseurl }}/assets/web.png)
 
 ---
 

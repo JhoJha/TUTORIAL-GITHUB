@@ -8,7 +8,7 @@ layout: default
 
 # 3. Pull Requests
 
-![Texto alternativo](../assets/descarg.png)
+![Texto alternativo]({{ site.baseurl }}/assets/descarg.png)
 
 Un **Pull Request (PR)** en GitHub es una solicitud para fusionar cambios desde una rama (por ejemplo, tr) a otra (normalmente main o master) dentro de un repositorio. Es una herramienta clave en el desarrollo colaborativo de software.
 

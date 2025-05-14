@@ -34,13 +34,13 @@ En este tutorial colaborativo, usamos **GitHub Projects** para organizar la crea
 
 ### Vista del proyecto (estado general)
 
-![Vista del tablero de proyecto con tareas abiertas](../assets/proyectos_open.png)
+![Vista del tablero de proyecto con tareas abiertas]({{ site.baseurl }}/assets/proyectos_open.png)
 
 ---
 
 ### Vista del tablero Kanban con tareas distribuidas
 
-![Tablero Kanban con tareas distribuidas por estado](../assets/proyectos_board.png)
+![Tablero Kanban con tareas distribuidas por estado]({{ site.baseurl }}/assets/proyectos_board.png)
 
 ---
 
