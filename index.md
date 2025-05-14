@@ -5,7 +5,7 @@ nav_order: 0
 has_children: true
 ---
 
-<img src="{{ site.baseurl }}/assets/unalm-logo.png" alt="Logo UNALM" class="header-logo">
+<img src="{{ site.baseurl }}/assets/unalm-logo.png.jpg" alt="Logo UNALM" class="header-logo">
 
 # Tutorial de GitHub
 
@@ -101,7 +101,7 @@ Dominar GitHub es mucho más que saber usar comandos: es comprender cómo colabo
 
 ## 10. Créditos
 
-👨‍💻 **Jhon Villegas**
-👨‍💻 **Alonso Coronado**
+👨‍💻 **Jhon Villegas**  
+👨‍💻 **Alonso Coronado**  
 🔗 [Repositorio en GitHub](https://github.com/JhoJha/TUTORIAL-GITHUB)  
 📅 Mayo 2025
