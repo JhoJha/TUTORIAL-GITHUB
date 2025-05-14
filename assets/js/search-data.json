@@ -1,380 +1,93 @@
 {"0": {
-    "doc": "Tutorial Completo",
-    "title": "📘 Tutorial de GitHub",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#-tutorial-de-github",
-    
-    "relUrl": "/docs/TUTORIAL.html#-tutorial-de-github"
-  },"1": {
-    "doc": "Tutorial Completo",
-    "title": "1. Introducción",
-    "content": ". ¿Qué es GitHub? GitHub es una plataforma en línea donde puedes guardar, compartir y colaborar en código con otras personas usando Git, que es un sistema de control de versiones. su importancia en el trabajo colaborativo GitHub es como una red social para programadores, pero con herramientas para: -Guardar proyectos en la nube (repositorios) -Trabajar en equipo -Reportar errores o mejoras (issues) -Proponer cambios (pull requests) cómo ha revolucionado el desarrollo de software GitHub ha tenido un impacto tremendo en la forma en que se desarrolla software. Aquí te explico cómo ha revolucionado el desarrollo: . | Facilitó la colaboración global GitHub ha hecho que sea mucho más fácil colaborar con desarrolladores de todo el mundo. Antes, los desarrolladores trabajaban de manera aislada o dependían de herramientas complejas para compartir y fusionar código. Con GitHub, ahora pueden: | . Trabajar de manera colaborativa a través de pull requests, donde otros miembros del equipo revisan y sugieren cambios en el código. Ver el código y hacer comentarios directamente en cada línea (lo que ayuda a resolver problemas y mejorar la calidad). Gestionar proyectos de manera eficiente utilizando issues, milestones y proyectos. | Control de versiones accesible para todos GitHub utiliza Git, un sistema de control de versiones muy poderoso que permite a los desarrolladores mantener un historial completo de cambios. Esto significa que: | . Pueden trabajar en paralelo sin miedo a sobrescribir el trabajo de otros. Volver atrás a una versión anterior del código si algo sale mal, haciendo más fácil experimentar y probar nuevas ideas sin riesgo. Los errores se pueden rastrear y solucionar fácilmente, ya que todo está documentado. Antes de GitHub, la gestión de versiones solo estaba disponible en sistemas complejos que no eran tan accesibles. GitHub hizo que el control de versiones fuera accesible para todos, incluso para personas sin mucha experiencia en el tema. | Descentralización del código GitHub permitió la creación de proyectos “open source” (de código abierto), lo que democratizó el acceso a las herramientas y permitió que miles de personas contribuyeran al mismo proyecto sin estar en la misma ubicación física o tener acceso a un servidor central. | . Los proyectos open source crecen de manera orgánica con contribuciones de desarrolladores de todo el mundo. Cualquier persona puede revisar, aprender, y mejorar el código. Facilita la creación de comunidades de desarrolladores que trabajan juntos por un propósito común. | Mejora en la calidad del código El sistema de pull requests fomenta que el código sea revisado antes de ser fusionado al proyecto principal. Esto: | . Mejora la calidad del código porque cada contribución es evaluada y validada por otros miembros del equipo. Permite que se detecten errores y problemas de rendimiento antes de que lleguen a producción. Facilita la implementación de mejores prácticas y estándares de codificación dentro de los equipos. | Documentación accesible y abierta GitHub también cambió la manera en que se documenta el software. Los repositorios pueden tener archivos README, documentación adicional y Wiki integrados, lo que facilita: | . Compartir información sobre cómo usar, instalar y contribuir a proyectos. Mantener documentación actualizada junto al código fuente. | Creación de una comunidad global GitHub no solo es una plataforma para desarrollar software, sino también una comunidad. Las personas pueden: | . Seguir a otros desarrolladores, aprender de ellos y contribuir a sus proyectos. Unirse a organizaciones y colaborar en proyectos grandes y complejos. Participar en proyectos open source que impactan a toda la industria de software. GitHub es como una red social para programadores, lo que crea una gran oportunidad de networking y colaboración. | Fomentar la cultura de “open source” GitHub ha promovido la filosofía del código abierto, lo que ha revolucionado la industria de la tecnología. Los proyectos de código abierto pueden ser: | . Usados, mejorados y redistribuidos por cualquier persona, lo que acelera la innovación y la evolución tecnológica. Contribuir a la creación de herramientas, librerías y frameworks de uso gratuito, beneficiando a millones de desarrolladores y empresas. | GitHub como plataforma de aprendizaje GitHub también se ha convertido en una herramienta educativa. Los desarrolladores nuevos pueden: | . Explorar proyectos open source para aprender cómo se estructuran y cómo funcionan. Seguir tutoriales y guías. Colaborar en proyectos para adquirir experiencia y construir su portafolio. GitHub tiene una gran comunidad de desarrolladores que se apoyan mutuamente, ayudando a que el aprendizaje sea más accesible. Historia de GitHub GitHub es una plataforma en línea para el desarrollo de software colaborativo. Está basada en Git, un sistema de control de versiones creado por Linus Torvalds (el mismo creador de Linux). Línea de tiempo: 2005: Git es creado por Linus Torvalds. 2008: GitHub es fundado por Tom Preston-Werner, Chris Wanstrath, P. J. Hyett y Scott Chacon. 2010s: GitHub se vuelve muy popular entre desarrolladores y empresas como una herramienta para compartir código y colaborar en proyectos. 2018: Microsoft compra GitHub por $7.5 mil millones de dólares. Hoy: Es la plataforma de colaboración de código más usada del mundo, con más de 100 millones de desarrolladores. Objetivos de GitHub . Colaboración en proyectos de software GitHub permite que muchos desarrolladores trabajen juntos en un mismo proyecto, desde cualquier lugar del mundo. Control de versiones Guarda un historial completo de cambios en el código. Puedes volver atrás, comparar versiones y ver quién hizo qué cambio. Compartir código Puedes publicar tu proyecto para que otros lo vean, lo usen o contribuyan (repositorios públicos) o mantenerlo privado. Revisión y mejora del código Los equipos pueden usar pull requests y code reviews para revisar y mejorar el código antes de integrarlo. Gestión de proyectos GitHub permite usar issues, boards (tableros tipo Kanban), wikis y más para organizar tareas y documentar el proyecto. Automatización (CI/CD) GitHub Actions permite automatizar pruebas, despliegues, compilaciones y más. Breve explicación de qué es GitHub y su importancia en el trabajo colaborativo. ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#1-introducci%C3%B3n",
-    
-    "relUrl": "/docs/TUTORIAL.html#1-introducción"
-  },"2": {
-    "doc": "Tutorial Completo",
-    "title": "2. Issues",
-    "content": "¿Qué son los Issues? . Un Issue es una forma de reportar: errores (bugs), sugerencias de mejora,tareas por hacer,preguntas o problemas relacionados con el proyecto. Los Issues permiten que tú y tu equipo organicen el trabajo y se comuniquen dentro del repositorio. ¿Para qué sirven? . -Documentar errores o fallas detectadas. -Proponer mejoras o nuevas funcionalidades. -Asignar tareas a otros colaboradores. -Hacer seguimiento del progreso. -Discutir problemas con otros usuarios del proyecto. ¿Cómo crear un Issue? . -Entra al repositorio en GitHub. -accede al boton “Issues” en la parte superior. -accede al botón verde “New issue”. -Al acceder coloca Un título claro (por ejemplo: “Error al cargar la página principal”). -Una descripción detallada del problema, con pasos para reproducirlo si es necesario.De forma opcional Puedes utilizar: Labels (etiquetas como “bug”, “enhancement”, etc.). Milestone (si forma parte de una etapa del proyecto). Assignees (personas responsables del issue). Haz clic en “Submit new issue”. ¿Cómo asignar un Issue? . Después de crear el Issue: En el panel derecho del Issue, haz clic en “Assignees”. Selecciona el usuario de GitHub que será responsable. Necesitas permisos de colaborador o administrador para poder asignar a otros. ¿Cómo cerrar un Issue? . Un Issue se puede cerrar cuando: Se resuelve el problema o se completa la tarea. Ya no es relevante. Desde el repositorio:Abre el Issue. Haz clic en “Close issue”. desde el terminal se hace un commit que resuelve el Issue, puedes escribir algo como: git commit -m “Corrige bug de inicio de sesión. Fixes #12” Ejemplo de Issue. Escenario: Tienes un proyecto donde estás creando una lista de compras en un archivo de texto. El archivo tiene una lista de elementos y te das cuenta de que no se agrego un artículo. El procedimiento: Crear un issue: Vas a la sección de “Issues” en tu repositorio de GitHub. Haces clic en “New Issue” (Nuevo Issue). Pones el título del issue: “Agregar “mochila” a la lista de compras”. En la descripción, puedes escribir algo como: “No coloque “mochila” a la lista de compras. Debe añadirse al final de la lista.” Agregas la etiqueta: “documentacion” (ya que se trata de un cambio en la lista de compras que forma parte de la documentación del proyecto). De esta forma figuraria la Issues: Título: “Agregar ‘mochila’ a la lista de compras” . Descripción: . “no agregué ‘mochila’ a la lista de compras. Debe añadirse al final de la lista.” . Etiqueta: documentation . ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#2-issues",
-    
-    "relUrl": "/docs/TUTORIAL.html#2-issues"
-  },"3": {
-    "doc": "Tutorial Completo",
-    "title": "3. Pull Requests",
-    "content": ". Un Pull Request (PR) en GitHub es una solicitud para fusionar cambios desde una rama (por ejemplo, tr) a otra (normalmente main o master) dentro de un repositorio. Es una herramienta clave en el desarrollo colaborativo de software. como se crea el Pull Request . -Desde Git Bash, ya habiendo realizado los cambios en el archivo. git push origin tr -habiendo hecho el push accede al repositorio cambia a la rama que deses que se fusione con la rama main en este caso. -Haz clic en “Compare &amp; pull request”. -Completa los detalles y haz clic en “Create pull request”. cómo se revisa y se aprueba . ¿Qué necesitas? . -Ser colaborador con permisos de escritura en el repositorio. -Acceso al Pull Request abierto que quieres revisar. | Accede al repositorio en GitHub . | Accede al boton Pull requests . | Haz clic en el Pull Request que quieres revisar . | Revisa los cambios . | Aprobar el Pull Request . | . Selecciona la opción “Approve”. (Opcional) Escribe un comentario de aprobación. Haz clic en “Submit review”. | (Opcional) Hacer el merge Si tienes permisos para hacerlo y ya hay al menos una aprobación, verás un botón verde que dice “Merge pull request”. | . Haz clic en ese botón para fusionar los cambios con la rama principal (por ejemplo, main). Luego, haz clic en “Confirm merge”. Incluir buenas prácticas para revisiones de código. | Revisa con atención, no con apuro . | Verifica que el cambio cumple su objetivo . | Revisa estilo y format . | Evalúa la estructura del código . | Asegúrate de que el código tenga pruebas . | Detecta posibles errores o riesgos ¿Hay código que podría fallar con ciertos datos? . | Sugiere mejoras, no solo señalas problemas . | Fomenta el aprendizaje . | Revisa solo lo necesario Si un PR es demasiado grande, sugiere dividirlo. | . ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#3-pull-requests",
-    
-    "relUrl": "/docs/TUTORIAL.html#3-pull-requests"
-  },"4": {
-    "doc": "Tutorial Completo",
-    "title": "4. GitHub Projects",
-    "content": "GitHub Projects es una herramienta poderosa para gestionar tareas dentro de un repositorio usando tableros tipo Kanban. Permite organizar visualmente el progreso del equipo, planificar tareas, dar seguimiento a lo pendiente y mantener el enfoque en los objetivos del proyecto. ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#4-github-projects",
-    
-    "relUrl": "/docs/TUTORIAL.html#4-github-projects"
-  },"5": {
-    "doc": "Tutorial Completo",
-    "title": "¿Para qué sirve GitHub Projects?",
-    "content": ". | Visualizar el avance de un proyecto en tiempo real. | Asignar tareas específicas a cada integrante del equipo. | Priorizar tareas y dividir el trabajo por etapas. | Facilitar la colaboración y la transparencia. | Reemplazar herramientas externas de gestión como Trello o Notion, todo dentro de GitHub. | . ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#para-qu%C3%A9-sirve-github-projects",
-    
-    "relUrl": "/docs/TUTORIAL.html#para-qué-sirve-github-projects"
-  },"6": {
-    "doc": "Tutorial Completo",
-    "title": "¿Cómo lo usamos en este proyecto?",
-    "content": "En este tutorial colaborativo, usamos GitHub Projects para organizar la creación de cada sección del contenido, asegurando que todos los temas fueran cubiertos de manera progresiva y coordinada. Creamos un tablero Kanban con tres columnas: . | Por hacer: Secciones pendientes por escribir. | En progreso: Secciones que alguien ya está desarrollando. | Terminado: Secciones completadas y revisadas. | . Vista del proyecto (estado general) . Vista del tablero Kanban con tareas distribuidas . ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#c%C3%B3mo-lo-usamos-en-este-proyecto",
-    
-    "relUrl": "/docs/TUTORIAL.html#cómo-lo-usamos-en-este-proyecto"
-  },"7": {
-    "doc": "Tutorial Completo",
-    "title": "Beneficios reales para este repositorio",
-    "content": ". | Nos permitió distribuir las responsabilidades entre los integrantes. | Cada quien sabía qué debía hacer, evitando duplicidad o desorden. | Hicimos seguimiento claro del progreso, viendo qué faltaba y qué estaba listo. | Sirvió como evidencia visual del trabajo realizado durante la exposición del proyecto. | . ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#beneficios-reales-para-este-repositorio",
-    
-    "relUrl": "/docs/TUTORIAL.html#beneficios-reales-para-este-repositorio"
-  },"8": {
-    "doc": "Tutorial Completo",
-    "title": "5. Automatización con GitHub Actions",
-    "content": "Explica qué es y un ejemplo sencillo (por ejemplo, acción que despliegue una web). ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#5-automatizaci%C3%B3n-con-github-actions",
-    
-    "relUrl": "/docs/TUTORIAL.html#5-automatización-con-github-actions"
-  },"9": {
-    "doc": "Tutorial Completo",
-    "title": "6. GitHub Gists",
-    "content": "Cómo crear snippets de código públicos o privados. ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#6-github-gists",
-    
-    "relUrl": "/docs/TUTORIAL.html#6-github-gists"
-  },"10": {
-    "doc": "Tutorial Completo",
-    "title": "7. GitHub Pages",
-    "content": "Cómo publicar una web desde el repositorio. ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#7-github-pages",
-    
-    "relUrl": "/docs/TUTORIAL.html#7-github-pages"
-  },"11": {
-    "doc": "Tutorial Completo",
-    "title": "8. Codespaces y Dev Editor",
-    "content": "Qué son, para qué sirven y ejemplos básicos. ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#8-codespaces-y-dev-editor",
-    
-    "relUrl": "/docs/TUTORIAL.html#8-codespaces-y-dev-editor"
-  },"12": {
-    "doc": "Tutorial Completo",
-    "title": "9. Conclusión",
-    "content": "El uso de GitHub no solo transforma la manera en que se gestiona el código, sino también la forma en que los equipos colaboran, se comunican y aprenden juntos. A lo largo de este tutorial, hemos explorado herramientas clave como Issues, Pull Requests, Projects, Gists, GitHub Pages y más. Cada una de estas funciones cumple un rol fundamental dentro del flujo de trabajo moderno en el desarrollo de software. GitHub es mucho más que un simple repositorio de archivos: Es una plataforma de colaboración global que fomenta la transparencia, la organización, la revisión constante del código y la mejora continua. Entre los aprendizajes más importantes que este tutorial nos deja, destacamos: . | La importancia del control de versiones para el trabajo ordenado y reversible. | El valor de la colaboración estructurada mediante herramientas como Issues y Pull Requests. | Cómo utilizar GitHub como un espacio para documentar, automatizar y compartir proyectos. | El poder de la comunidad y la filosofía open source, que nos invita a contribuir y aprender constantemente. | . Este conocimiento no solo es útil para trabajar en equipo, sino también para tu crecimiento profesional individual, ya que dominar GitHub es una habilidad esencial en cualquier área relacionada con la tecnología y el desarrollo. “No se trata solo de escribir código, sino de construir soluciones juntos.” . Gracias por llegar hasta aquí. ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#9-conclusi%C3%B3n",
-    
-    "relUrl": "/docs/TUTORIAL.html#9-conclusión"
-  },"13": {
-    "doc": "Tutorial Completo",
-    "title": "10. Créditos",
-    "content": "Nombres completos, usuarios GitHub y aportes. ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html#10-cr%C3%A9ditos",
-    
-    "relUrl": "/docs/TUTORIAL.html#10-créditos"
-  },"14": {
-    "doc": "Tutorial Completo",
-    "title": "Tutorial Completo",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/TUTORIAL.html",
-    
-    "relUrl": "/docs/TUTORIAL.html"
-  },"15": {
-    "doc": "Codespaces y Dev Editor",
-    "title": "Codespaces y Dev Editor",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/codespaces_dev_editor.html",
-    
-    "relUrl": "/docs/codespaces_dev_editor.html"
-  },"16": {
-    "doc": "Conclusión",
-    "title": "Conclusiones",
-    "content": "El uso de GitHub no solo transforma la manera en que se gestiona el código, sino también la forma en que los equipos colaboran, se comunican y aprenden juntos. A lo largo de este tutorial, hemos explorado herramientas clave como Issues, Pull Requests, Projects, Gists, GitHub Pages y más. Cada una de estas funciones cumple un rol fundamental dentro del flujo de trabajo moderno en el desarrollo de software. GitHub es mucho más que un simple repositorio de archivos: Es una plataforma de colaboración global que fomenta la transparencia, la organización, la revisión constante del código y la mejora continua. Entre los aprendizajes más importantes que este tutorial nos deja, destacamos: . | La importancia del control de versiones para el trabajo ordenado y reversible. | El valor de la colaboración estructurada mediante herramientas como Issues y Pull Requests. | Cómo utilizar GitHub como un espacio para documentar, automatizar y compartir proyectos. | El poder de la comunidad y la filosofía open source, que nos invita a contribuir y aprender constantemente. | . Este conocimiento no solo es útil para trabajar en equipo, sino también para tu crecimiento profesional individual, ya que dominar GitHub es una habilidad esencial en cualquier área relacionada con la tecnología y el desarrollo. “No se trata solo de escribir código, sino de construir soluciones juntos.” . Gracias por llegar hasta aquí. ",
-    "url": "/TUTORIAL-GITHUB/docs/conclusion.html#conclusiones",
-    
-    "relUrl": "/docs/conclusion.html#conclusiones"
-  },"17": {
-    "doc": "Conclusión",
-    "title": "Conclusión",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/conclusion.html",
-    
-    "relUrl": "/docs/conclusion.html"
-  },"18": {
-    "doc": "Créditos",
-    "title": "Créditos",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/creditos.html",
-    
-    "relUrl": "/docs/creditos.html"
-  },"19": {
-    "doc": "GitHub Gists",
-    "title": "GitHub Gists",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/gist.html",
-    
-    "relUrl": "/docs/gist.html"
-  },"20": {
-    "doc": "GitHub Actions",
-    "title": "GitHub Actions",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/github_actions.html",
-    
-    "relUrl": "/docs/github_actions.html"
-  },"21": {
-    "doc": "GitHub Pages",
-    "title": "GitHub Pages",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/github_pages.html",
-    
-    "relUrl": "/docs/github_pages.html"
-  },"22": {
-    "doc": "GitHub Pages",
-    "title": "¿Qué es GitHub Pages?",
-    "content": "GitHub Pages es una funcionalidad gratuita que permite convertir un repositorio en un sitio web estático directamente desde tu código Markdown o HTML. Es ideal para documentación, portafolios, blogs y tutoriales. ",
-    "url": "/TUTORIAL-GITHUB/docs/github_pages.html#qu%C3%A9-es-github-pages",
-    
-    "relUrl": "/docs/github_pages.html#qué-es-github-pages"
-  },"23": {
-    "doc": "GitHub Pages",
-    "title": "⚙️ ¿Cómo se configura GitHub Pages?",
-    "content": ". | Ve al repositorio en GitHub. | Entra a Settings &gt; Pages. | Selecciona la rama a usar (por ejemplo main) y la carpeta base (/root o /docs). | Guarda y espera unos segundos. | Tu web estará disponible en una URL como: | . [https://tuusuario.github.io/tu-repositorio](https://tuusuario.github.io/tu-repositorio) . ",
-    "url": "/TUTORIAL-GITHUB/docs/github_pages.html#%EF%B8%8F-c%C3%B3mo-se-configura-github-pages",
-    
-    "relUrl": "/docs/github_pages.html#️-cómo-se-configura-github-pages"
-  },"24": {
-    "doc": "GitHub Pages",
-    "title": "Implementación en este proyecto",
-    "content": "En este tutorial colaborativo, usamos GitHub Pages para presentar todo el contenido de manera visual y navegable. Aquí te explicamos cómo lo hicimos paso a paso: . 1. Creamos un archivo index.md . Este archivo es el punto de entrada del sitio. Contiene una tabla de contenido con enlaces a cada tema del tutorial. ### Ejemplo de enlace: 🔗 [Leer más...](docs/issues.md) . Este index.md se encuentra en la raíz del repositorio y actúa como página de inicio. ⚙️ 2. Configuramos el archivo _config.yml . Este archivo define los metadatos del sitio y es clave para que GitHub Pages funcione correctamente con Jekyll (el motor que renderiza el sitio). title: Tutorial de GitHub description: Guía colaborativa para dominar GitHub author: Jhon Villegas url: \"https://jhojha.github.io\" baseurl: \"/TUTORIAL-GITHUB\" theme: jekyll-theme-minimal sass: sass_dir: assets/css style: compressed include: - assets/css nav: - title: \"Inicio\" url: / - title: \"Repositorio\" url: https://github.com/JhoJha/TUTORIAL-GITHUB - title: \"Ver TUTORIAL.md\" url: /TUTORIAL.md . 📌 El campo baseurl fue clave para que los enlaces funcionaran correctamente al estar en una subcarpeta. 🎨 3. Estilizamos el sitio con SCSS personalizado . Creamos un archivo .scss dentro de assets/css/ con un diseño adaptado a la lectura: . | Fondo crema claro. | Tipografía legible. | Layout responsive. | Colores amigables para la vista. | . @import \"just-the-docs\"; body { background-color: #fdf6e3; color: #2c3e50; font-family: \"Segoe UI\", \"Helvetica Neue\", sans-serif; } . El estilo fue aplicado automáticamente al agregar el SCSS en el include: del _config.yml. 🖼️ 4. Vista real del sitio publicado . 📷 Vista general del sitio web . 📷 Menú de navegación personalizado . ",
-    "url": "/TUTORIAL-GITHUB/docs/github_pages.html#implementaci%C3%B3n-en-este-proyecto",
-    
-    "relUrl": "/docs/github_pages.html#implementación-en-este-proyecto"
-  },"25": {
-    "doc": "GitHub Pages",
-    "title": "Ventajas de usar GitHub Pages en este proyecto",
-    "content": ". | Permite mostrar el contenido de forma clara y ordenada. | Transforma el repositorio en una experiencia visual accesible. | Facilita la exposición ante la profesora o cualquier evaluador. | Sirve como portafolio digital para mostrar el trabajo realizado. | . ",
-    "url": "/TUTORIAL-GITHUB/docs/github_pages.html#ventajas-de-usar-github-pages-en-este-proyecto",
-    
-    "relUrl": "/docs/github_pages.html#ventajas-de-usar-github-pages-en-este-proyecto"
-  },"26": {
-    "doc": "GitHub Pages",
-    "title": "Conclusión",
-    "content": "Gracias a GitHub Pages, este tutorial dejó de ser solo archivos .md para convertirse en una guía web profesional y navegable. Aprender a configurar y publicar con GitHub Pages es una habilidad fundamental para todo desarrollador moderno. ",
-    "url": "/TUTORIAL-GITHUB/docs/github_pages.html#conclusi%C3%B3n",
-    
-    "relUrl": "/docs/github_pages.html#conclusión"
-  },"27": {
-    "doc": "GitHub Projects",
-    "title": "GitHub Projects",
-    "content": "GitHub Projects es una herramienta poderosa para gestionar tareas dentro de un repositorio usando tableros tipo Kanban. Permite organizar visualmente el progreso del equipo, planificar tareas, dar seguimiento a lo pendiente y mantener el enfoque en los objetivos del proyecto. ",
-    "url": "/TUTORIAL-GITHUB/docs/github_projects.html",
-    
-    "relUrl": "/docs/github_projects.html"
-  },"28": {
-    "doc": "GitHub Projects",
-    "title": "¿Para qué sirve GitHub Projects?",
-    "content": ". | Visualizar el avance de un proyecto en tiempo real. | Asignar tareas específicas a cada integrante del equipo. | Priorizar tareas y dividir el trabajo por etapas. | Facilitar la colaboración y la transparencia. | Reemplazar herramientas externas de gestión como Trello o Notion, todo dentro de GitHub. | . ",
-    "url": "/TUTORIAL-GITHUB/docs/github_projects.html#para-qu%C3%A9-sirve-github-projects",
-    
-    "relUrl": "/docs/github_projects.html#para-qué-sirve-github-projects"
-  },"29": {
-    "doc": "GitHub Projects",
-    "title": "¿Cómo lo usamos en este proyecto?",
-    "content": "En este tutorial colaborativo, usamos GitHub Projects para organizar la creación de cada sección del contenido, asegurando que todos los temas fueran cubiertos de manera progresiva y coordinada. Creamos un tablero Kanban con tres columnas: . | Por hacer: Secciones pendientes por escribir. | En progreso: Secciones que alguien ya está desarrollando. | Terminado: Secciones completadas y revisadas. | . Vista del proyecto (estado general) . Vista del tablero Kanban con tareas distribuidas . ",
-    "url": "/TUTORIAL-GITHUB/docs/github_projects.html#c%C3%B3mo-lo-usamos-en-este-proyecto",
-    
-    "relUrl": "/docs/github_projects.html#cómo-lo-usamos-en-este-proyecto"
-  },"30": {
-    "doc": "GitHub Projects",
-    "title": "Beneficios reales para este repositorio",
-    "content": ". | Nos permitió distribuir las responsabilidades entre los integrantes. | Cada quien sabía qué debía hacer, evitando duplicidad o desorden. | Hicimos seguimiento claro del progreso, viendo qué faltaba y qué estaba listo. | Sirvió como evidencia visual del trabajo realizado durante la exposición del proyecto. | . ",
-    "url": "/TUTORIAL-GITHUB/docs/github_projects.html#beneficios-reales-para-este-repositorio",
-    
-    "relUrl": "/docs/github_projects.html#beneficios-reales-para-este-repositorio"
-  },"31": {
-    "doc": "GitHub Projects",
-    "title": "Conclusión",
-    "content": "GitHub Projects ha sido clave para gestionar y dar orden a este tutorial. No solo permitió trabajar de forma organizada, sino también demostrar ante la profesora el avance real y distribuido del equipo. Usar herramientas como esta eleva el nivel de cualquier repositorio colaborativo. ",
-    "url": "/TUTORIAL-GITHUB/docs/github_projects.html#conclusi%C3%B3n",
-    
-    "relUrl": "/docs/github_projects.html#conclusión"
-  },"32": {
     "doc": "Inicio",
     "title": "Tutorial de GitHub",
     "content": "Guía colaborativa para dominar GitHub, elaborada por estudiantes de la UNALM. | 🏠 Inicio | 📁 Repositorio en GitHub | 📘 Ver Tutorial Completo | . ",
     "url": "/TUTORIAL-GITHUB/#tutorial-de-github",
     
     "relUrl": "/#tutorial-de-github"
-  },"33": {
+  },"1": {
     "doc": "Inicio",
     "title": "📚 Contenido",
     "content": ". | Tutorial de GitHub . | 📚 Contenido | 1. Introducción | 2. Issues | 3. Pull Requests | 4. GitHub Projects | 5. Automatización con GitHub Actions | 6. GitHub Gists | 7. GitHub Pages | 8. Codespaces y Dev Editor | 9. Conclusión | 10. Créditos | . | . ",
     "url": "/TUTORIAL-GITHUB/#-contenido",
     
     "relUrl": "/#-contenido"
-  },"34": {
+  },"2": {
     "doc": "Inicio",
     "title": "1. Introducción",
     "content": "GitHub es la plataforma por excelencia para colaborar en proyectos de software. Más que un lugar para guardar código, es una red global que facilita el trabajo en equipo, el control de versiones y la innovación abierta. En esta sección descubrirás cómo GitHub ha transformado la forma de desarrollar software en todo el mundo. 🔗 Leer más… . ",
     "url": "/TUTORIAL-GITHUB/#1-introducci%C3%B3n",
     
     "relUrl": "/#1-introducción"
-  },"35": {
+  },"3": {
     "doc": "Inicio",
     "title": "2. Issues",
     "content": "Los Issues en GitHub permiten organizar el trabajo colaborativo: puedes reportar errores, proponer mejoras, asignar tareas o hacer preguntas. Son clave para planificar y dar seguimiento al desarrollo de un proyecto. En esta sección aprenderás a crearlos, asignarlos, cerrarlos y usar buenas prácticas con ejemplos reales. 🔗 Leer más… . ",
     "url": "/TUTORIAL-GITHUB/#2-issues",
     
     "relUrl": "/#2-issues"
-  },"36": {
+  },"4": {
     "doc": "Inicio",
     "title": "3. Pull Requests",
     "content": "Los Pull Requests (PR) son fundamentales en el trabajo colaborativo con GitHub. Permiten proponer cambios desde una rama hacia otra (como main) para que otros puedan revisarlos antes de ser aceptados. En esta sección aprenderás cómo crear un PR desde la terminal y la interfaz web, cómo revisarlos correctamente, aprobarlos y fusionarlos de forma segura. También se incluyen buenas prácticas para revisiones de código, como detectar errores, sugerir mejoras y fomentar el aprendizaje dentro del equipo. 🔗 Leer más… . ",
     "url": "/TUTORIAL-GITHUB/#3-pull-requests",
     
     "relUrl": "/#3-pull-requests"
-  },"37": {
+  },"5": {
     "doc": "Inicio",
     "title": "4. GitHub Projects",
     "content": "GitHub Projects permite gestionar tareas usando tableros tipo Kanban directamente en tu repositorio. En este tutorial, usamos esta herramienta para organizar el trabajo en equipo, distribuir responsabilidades y hacer seguimiento al avance de cada sección. Verás cómo configuramos el tablero, cómo se distribuyeron las tareas y qué beneficios trajo para mantenernos organizados y enfocados. 🔗 Leer más… . ",
     "url": "/TUTORIAL-GITHUB/#4-github-projects",
     
     "relUrl": "/#4-github-projects"
-  },"38": {
+  },"6": {
     "doc": "Inicio",
     "title": "5. Automatización con GitHub Actions",
     "content": "Explica qué es y un ejemplo sencillo (por ejemplo, acción que despliegue una web). ",
     "url": "/TUTORIAL-GITHUB/#5-automatizaci%C3%B3n-con-github-actions",
     
     "relUrl": "/#5-automatización-con-github-actions"
-  },"39": {
+  },"7": {
     "doc": "Inicio",
     "title": "6. GitHub Gists",
     "content": "Cómo crear snippets de código públicos o privados. ",
     "url": "/TUTORIAL-GITHUB/#6-github-gists",
     
     "relUrl": "/#6-github-gists"
-  },"40": {
+  },"8": {
     "doc": "Inicio",
     "title": "7. GitHub Pages",
     "content": "GitHub Pages permite transformar tu repositorio en un sitio web navegable y profesional. En este proyecto lo utilizamos para publicar el tutorial como una guía web, aplicando diseño personalizado con SCSS, una navegación clara desde index.md, y configuración precisa con _config.yml. Esta sección te enseñará cómo hacerlo desde cero y cómo aprovecharlo como portafolio o documentación viva. 🔗 Leer más… . ",
     "url": "/TUTORIAL-GITHUB/#7-github-pages",
     
     "relUrl": "/#7-github-pages"
-  },"41": {
+  },"9": {
     "doc": "Inicio",
     "title": "8. Codespaces y Dev Editor",
     "content": "Qué son, para qué sirven y ejemplos básicos. ",
     "url": "/TUTORIAL-GITHUB/#8-codespaces-y-dev-editor",
     
     "relUrl": "/#8-codespaces-y-dev-editor"
-  },"42": {
+  },"10": {
     "doc": "Inicio",
     "title": "9. Conclusión",
     "content": "Dominar GitHub es mucho más que saber usar comandos: es comprender cómo colaborar, compartir y construir proyectos de forma profesional. En esta sección encontrarás una reflexión final sobre todo lo aprendido, la importancia del control de versiones, el trabajo en equipo y cómo GitHub se ha convertido en una herramienta esencial para cualquier desarrollador o estudiante de tecnología. 🔗 Leer más… . ",
     "url": "/TUTORIAL-GITHUB/#9-conclusi%C3%B3n",
     
     "relUrl": "/#9-conclusión"
-  },"43": {
+  },"11": {
     "doc": "Inicio",
     "title": "10. Créditos",
     "content": "👨‍💻 Jhon Villegas 🔗 Repositorio en GitHub 📅 Mayo 2025 . ",
     "url": "/TUTORIAL-GITHUB/#10-cr%C3%A9ditos",
     
     "relUrl": "/#10-créditos"
-  },"44": {
+  },"12": {
     "doc": "Inicio",
     "title": "Inicio",
     "content": " ",
     "url": "/TUTORIAL-GITHUB/",
     
     "relUrl": "/"
-  },"45": {
-    "doc": "Introducción",
-    "title": "1. Introducción",
-    "content": ". ¿Qué es GitHub? GitHub es una plataforma en línea donde puedes guardar, compartir y colaborar en código con otras personas usando Git, que es un sistema de control de versiones. su importancia en el trabajo colaborativo GitHub es como una red social para programadores, pero con herramientas para: -Guardar proyectos en la nube (repositorios) -Trabajar en equipo -Reportar errores o mejoras (issues) -Proponer cambios (pull requests) cómo ha revolucionado el desarrollo de software GitHub ha tenido un impacto tremendo en la forma en que se desarrolla software. Aquí te explico cómo ha revolucionado el desarrollo: . | Facilitó la colaboración global GitHub ha hecho que sea mucho más fácil colaborar con desarrolladores de todo el mundo. Antes, los desarrolladores trabajaban de manera aislada o dependían de herramientas complejas para compartir y fusionar código. Con GitHub, ahora pueden: | . Trabajar de manera colaborativa a través de pull requests, donde otros miembros del equipo revisan y sugieren cambios en el código. Ver el código y hacer comentarios directamente en cada línea (lo que ayuda a resolver problemas y mejorar la calidad). Gestionar proyectos de manera eficiente utilizando issues, milestones y proyectos. ",
-    "url": "/TUTORIAL-GITHUB/docs/introduccion.html#1-introducci%C3%B3n",
-    
-    "relUrl": "/docs/introduccion.html#1-introducción"
-  },"46": {
-    "doc": "Introducción",
-    "title": "Introducción",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/introduccion.html",
-    
-    "relUrl": "/docs/introduccion.html"
-  },"47": {
-    "doc": "Issues",
-    "title": "2. Issues",
-    "content": "¿Qué son los Issues? . Un Issue es una forma de reportar: errores (bugs), sugerencias de mejora,tareas por hacer,preguntas o problemas relacionados con el proyecto. Los Issues permiten que tú y tu equipo organicen el trabajo y se comuniquen dentro del repositorio. ¿Para qué sirven? . -Documentar errores o fallas detectadas. -Proponer mejoras o nuevas funcionalidades. -Asignar tareas a otros colaboradores. -Hacer seguimiento del progreso. -Discutir problemas con otros usuarios del proyecto. ¿Cómo crear un Issue? . -Entra al repositorio en GitHub. -accede al boton “Issues” en la parte superior. -accede al botón verde “New issue”. -Al acceder coloca Un título claro (por ejemplo: “Error al cargar la página principal”). -Una descripción detallada del problema, con pasos para reproducirlo si es necesario.De forma opcional Puedes utilizar: Labels (etiquetas como “bug”, “enhancement”, etc.). Milestone (si forma parte de una etapa del proyecto). Assignees (personas responsables del issue). Haz clic en “Submit new issue”. ¿Cómo asignar un Issue? . Después de crear el Issue: En el panel derecho del Issue, haz clic en “Assignees”. Selecciona el usuario de GitHub que será responsable. Necesitas permisos de colaborador o administrador para poder asignar a otros. ¿Cómo cerrar un Issue? . Un Issue se puede cerrar cuando: Se resuelve el problema o se completa la tarea. Ya no es relevante. Desde el repositorio:Abre el Issue. Haz clic en “Close issue”. desde el terminal se hace un commit que resuelve el Issue, puedes escribir algo como: git commit -m “Corrige bug de inicio de sesión. Fixes #12” Ejemplo de Issue. Escenario: Tienes un proyecto donde estás creando una lista de compras en un archivo de texto. El archivo tiene una lista de elementos y te das cuenta de que no se agrego un artículo. El procedimiento: Crear un issue: Vas a la sección de “Issues” en tu repositorio de GitHub. Haces clic en “New Issue” (Nuevo Issue). Pones el título del issue: “Agregar “mochila” a la lista de compras”. En la descripción, puedes escribir algo como: “No coloque “mochila” a la lista de compras. Debe añadirse al final de la lista.” Agregas la etiqueta: “documentacion” (ya que se trata de un cambio en la lista de compras que forma parte de la documentación del proyecto). De esta forma figuraria la Issues: Título: “Agregar ‘mochila’ a la lista de compras” . Descripción: . “no agregué ‘mochila’ a la lista de compras. Debe añadirse al final de la lista.” . ",
-    "url": "/TUTORIAL-GITHUB/docs/issues.html#2-issues",
-    
-    "relUrl": "/docs/issues.html#2-issues"
-  },"48": {
-    "doc": "Issues",
-    "title": "Issues",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/issues.html",
-    
-    "relUrl": "/docs/issues.html"
-  },"49": {
-    "doc": "Pull Requests",
-    "title": "3. Pull Requests",
-    "content": ". Un Pull Request (PR) en GitHub es una solicitud para fusionar cambios desde una rama (por ejemplo, tr) a otra (normalmente main o master) dentro de un repositorio. Es una herramienta clave en el desarrollo colaborativo de software. ",
-    "url": "/TUTORIAL-GITHUB/docs/pull_requests.html#3-pull-requests",
-    
-    "relUrl": "/docs/pull_requests.html#3-pull-requests"
-  },"50": {
-    "doc": "Pull Requests",
-    "title": "como se crea el Pull Request",
-    "content": "-Desde Git Bash, ya habiendo realizado los cambios en el archivo. git push origin tr -habiendo hecho el push accede al repositorio cambia a la rama que deses que se fusione con la rama main en este caso. -Haz clic en “Compare &amp; pull request”. -Completa los detalles y haz clic en “Create pull request”. ",
-    "url": "/TUTORIAL-GITHUB/docs/pull_requests.html#como-se-crea-el-pull-request",
-    
-    "relUrl": "/docs/pull_requests.html#como-se-crea-el-pull-request"
-  },"51": {
-    "doc": "Pull Requests",
-    "title": "cómo se revisa y se aprueba",
-    "content": "¿Qué necesitas? . -Ser colaborador con permisos de escritura en el repositorio. -Acceso al Pull Request abierto que quieres revisar. | Accede al repositorio en GitHub . | Accede al boton Pull requests . | Haz clic en el Pull Request que quieres revisar . | Revisa los cambios . | Aprobar el Pull Request . | . Selecciona la opción “Approve”. (Opcional) Escribe un comentario de aprobación. Haz clic en “Submit review”. | (Opcional) Hacer el merge Si tienes permisos para hacerlo y ya hay al menos una aprobación, verás un botón verde que dice “Merge pull request”. | . Haz clic en ese botón para fusionar los cambios con la rama principal (por ejemplo, main). Luego, haz clic en “Confirm merge”. ",
-    "url": "/TUTORIAL-GITHUB/docs/pull_requests.html#c%C3%B3mo-se-revisa-y-se-aprueba",
-    
-    "relUrl": "/docs/pull_requests.html#cómo-se-revisa-y-se-aprueba"
-  },"52": {
-    "doc": "Pull Requests",
-    "title": "Incluir buenas prácticas para revisiones de código.",
-    "content": ". | Revisa con atención, no con apuro . | Verifica que el cambio cumple su objetivo . | Revisa estilo y format . | Evalúa la estructura del código . | Asegúrate de que el código tenga pruebas . | Detecta posibles errores o riesgos ¿Hay código que podría fallar con ciertos datos? . | Sugiere mejoras, no solo señalas problemas . | Fomenta el aprendizaje . | Revisa solo lo necesario Si un PR es demasiado grande, sugiere dividirlo. | . ",
-    "url": "/TUTORIAL-GITHUB/docs/pull_requests.html#incluir-buenas-pr%C3%A1cticas-para-revisiones-de-c%C3%B3digo",
-    
-    "relUrl": "/docs/pull_requests.html#incluir-buenas-prácticas-para-revisiones-de-código"
-  },"53": {
-    "doc": "Pull Requests",
-    "title": "Pull Requests",
-    "content": " ",
-    "url": "/TUTORIAL-GITHUB/docs/pull_requests.html",
-    
-    "relUrl": "/docs/pull_requests.html"
   }
 }
