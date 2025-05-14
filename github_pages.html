@@ -1,0 +1,122 @@
+<h1 id="github-pages">GitHub Pages</h1>
+
+<h2 id="qué-es-github-pages">¿Qué es GitHub Pages?</h2>
+
+<p><strong>GitHub Pages</strong> es una funcionalidad gratuita que permite convertir un repositorio en un sitio web estático directamente desde tu código Markdown o HTML. Es ideal para documentación, portafolios, blogs y tutoriales.</p>
+
+<h2 id="️-cómo-se-configura-github-pages">⚙️ ¿Cómo se configura GitHub Pages?</h2>
+
+<ol>
+  <li>Ve al repositorio en GitHub.</li>
+  <li>Entra a <strong>Settings &gt; Pages</strong>.</li>
+  <li>Selecciona la rama a usar (por ejemplo <code class="language-plaintext highlighter-rouge">main</code>) y la carpeta base (<code class="language-plaintext highlighter-rouge">/root</code> o <code class="language-plaintext highlighter-rouge">/docs</code>).</li>
+  <li>Guarda y espera unos segundos.</li>
+  <li>Tu web estará disponible en una URL como:</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[https://tuusuario.github.io/tu-repositorio](https://tuusuario.github.io/tu-repositorio)
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="implementación-en-este-proyecto">Implementación en este proyecto</h2>
+
+<p>En este tutorial colaborativo, <strong>usamos GitHub Pages para presentar todo el contenido de manera visual y navegable</strong>. Aquí te explicamos cómo lo hicimos paso a paso:</p>
+
+<hr />
+
+<h3 id="1-creamos-un-archivo-indexmd">1. Creamos un archivo <code class="language-plaintext highlighter-rouge">index.md</code></h3>
+
+<p>Este archivo es el punto de entrada del sitio. Contiene una tabla de contenido con enlaces a cada tema del tutorial.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gu">### Ejemplo de enlace:</span>
+🔗 <span class="p">[</span><span class="nv">Leer más...</span><span class="p">](</span><span class="sx">docs/issues.md</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Este <code class="language-plaintext highlighter-rouge">index.md</code> se encuentra en la raíz del repositorio y actúa como página de inicio.</p>
+
+<hr />
+
+<h3 id="️-2-configuramos-el-archivo-_configyml">⚙️ 2. Configuramos el archivo <code class="language-plaintext highlighter-rouge">_config.yml</code></h3>
+
+<p>Este archivo define los metadatos del sitio y es clave para que GitHub Pages funcione correctamente con Jekyll (el motor que renderiza el sitio).</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="s">Tutorial de GitHub</span>
+<span class="na">description</span><span class="pi">:</span> <span class="s">Guía colaborativa para dominar GitHub</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">Jhon Villegas</span>
+
+<span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://jhojha.github.io"</span>
+<span class="na">baseurl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">/TUTORIAL-GITHUB"</span>
+
+<span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-theme-minimal</span>
+
+<span class="na">sass</span><span class="pi">:</span>
+  <span class="na">sass_dir</span><span class="pi">:</span> <span class="s">assets/css</span>
+  <span class="na">style</span><span class="pi">:</span> <span class="s">compressed</span>
+
+<span class="na">include</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">assets/css</span>
+
+<span class="na">nav</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Inicio"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Repositorio"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">https://github.com/JhoJha/TUTORIAL-GITHUB</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Ver</span><span class="nv"> </span><span class="s">TUTORIAL.md"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/TUTORIAL.md</span>
+</code></pre></div></div>
+
+<p>📌 El campo <code class="language-plaintext highlighter-rouge">baseurl</code> fue clave para que los enlaces funcionaran correctamente al estar en una subcarpeta.</p>
+
+<hr />
+
+<h3 id="-3-estilizamos-el-sitio-con-scss-personalizado">🎨 3. Estilizamos el sitio con SCSS personalizado</h3>
+
+<p>Creamos un archivo <code class="language-plaintext highlighter-rouge">.scss</code> dentro de <code class="language-plaintext highlighter-rouge">assets/css/</code> con un diseño adaptado a la lectura:</p>
+
+<ul>
+  <li>Fondo crema claro.</li>
+  <li>Tipografía legible.</li>
+  <li>Layout responsive.</li>
+  <li>Colores amigables para la vista.</li>
+</ul>
+
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@import</span> <span class="s2">""</span><span class="p">;</span>
+
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="mh">#fdf6e3</span><span class="p">;</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="mh">#2c3e50</span><span class="p">;</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s2">"Segoe UI"</span><span class="o">,</span> <span class="s2">"Helvetica Neue"</span><span class="o">,</span> <span class="nb">sans-serif</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>El estilo fue aplicado automáticamente al agregar el SCSS en el <code class="language-plaintext highlighter-rouge">include:</code> del <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<hr />
+
+<h3 id="️-4-vista-real-del-sitio-publicado">🖼️ 4. Vista real del sitio publicado</h3>
+
+<h4 id="-vista-general-del-sitio-web">📷 Vista general del sitio web</h4>
+
+<p><img src="../assets/pages_vista_1.png" alt="Vista general del sitio" /></p>
+
+<h4 id="-menú-de-navegación-personalizado">📷 Menú de navegación personalizado</h4>
+
+<p><img src="../assets/pages_vista_2.png" alt="Menú lateral con enlaces" /></p>
+
+<hr />
+
+<h2 id="ventajas-de-usar-github-pages-en-este-proyecto">Ventajas de usar GitHub Pages en este proyecto</h2>
+
+<ul>
+  <li>Permite mostrar el contenido de forma clara y ordenada.</li>
+  <li>Transforma el repositorio en una experiencia visual accesible.</li>
+  <li>Facilita la exposición ante la profesora o cualquier evaluador.</li>
+  <li>Sirve como portafolio digital para mostrar el trabajo realizado.</li>
+</ul>
+
+<hr />
+
+<h2 id="conclusión">Conclusión</h2>
+
+<p>Gracias a GitHub Pages, este tutorial dejó de ser solo archivos <code class="language-plaintext highlighter-rouge">.md</code> para convertirse en una <strong>guía web profesional y navegable</strong>. Aprender a configurar y publicar con GitHub Pages es una habilidad fundamental para todo desarrollador moderno.</p>
