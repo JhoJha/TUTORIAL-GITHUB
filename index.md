@@ -5,6 +5,8 @@ nav_order: 0
 has_children: true
 ---
 
+<img src="{{ site.baseurl }}/assets/unalm-logo.png" alt="Logo UNALM" class="header-logo">
+
 # Tutorial de GitHub
 
 Guía colaborativa para dominar GitHub, elaborada por estudiantes de la UNALM.
@@ -99,6 +101,7 @@ Dominar GitHub es mucho más que saber usar comandos: es comprender cómo colabo
 
 ## 10. Créditos
 
-👨‍💻 **Jhon Villegas**  
+👨‍💻 **Jhon Villegas**
+👨‍💻 **Alonso Coronado**
 🔗 [Repositorio en GitHub](https://github.com/JhoJha/TUTORIAL-GITHUB)  
 📅 Mayo 2025

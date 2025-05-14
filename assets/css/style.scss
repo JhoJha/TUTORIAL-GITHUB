@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 🎨 Fondo suave y tipografía elegante */
+body {
+  background-color: #fdf6e3;
+  color: #2c3e50;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* 📌 Estilo para el logo */
+.header-logo {
+  width: 80px;
+  float: left;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-logo {
+    float: none;
+    display: block;
+    margin: 0 auto 10px;
+  }
+}
