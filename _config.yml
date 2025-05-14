@@ -14,9 +14,15 @@ collections:
     output: true
     permalink: /:path/
 
+
 sass:
-  sass_dir: assets/css
   style: compressed
+
 
 include:
   - assets/css
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

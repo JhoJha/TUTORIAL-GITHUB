@@ -5,7 +5,7 @@ nav_order: 0
 has_children: true
 ---
 
-<img src="{{ site.baseurl }}/assets/unalm-logo.png.jpg" alt="Logo UNALM" class="header-logo">
+<img src="{{ site.baseurl }}/assets/Escudo_UNALM.jpg" alt="Logo UNALM" class="header-logo">
 
 # Tutorial de GitHub
 
