@@ -1,3 +1,9 @@
+---
+title: "Tutorial Completo"
+nav_order: 11
+parent: "Contenido"
+---
+
 # 📘 Tutorial de GitHub
 
 ## 1. Introducción
