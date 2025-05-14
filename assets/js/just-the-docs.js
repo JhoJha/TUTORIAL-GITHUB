@@ -36,8 +36,8 @@ function initNav() {
   const siteNav = document.getElementById('site-nav');
   const mainHeader = document.getElementById('main-header');
   const menuButton = document.getElementById('menu-button');
-
-  disableHeadStyleSheets();
+  
+  disableHeadStyleSheet();
 
   jtd.addEvent(menuButton, 'click', function(e){
     e.preventDefault();
@@ -54,23 +54,13 @@ function initNav() {
   });
 }
 
-// The <head> element is assumed to include the following stylesheets:
-// - a <link> to /assets/css/just-the-docs-head-nav.css,
-//             with id 'jtd-head-nav-stylesheet'
-// - a <style> containing the result of _includes/css/activation.scss.liquid.
-// To avoid relying on the order of stylesheets (which can change with HTML
-// compression, user-added JavaScript, and other side effects), stylesheets
-// are only interacted with via ID
+// The page-specific <style> in the <head> is needed only when JS is disabled.
+// Moreover, it incorrectly overrides dynamic stylesheets set by setTheme(theme). 
+// The page-specific stylesheet is assumed to have index 1 in the list of stylesheets.
 
-function disableHeadStyleSheets() {
-  const headNav = document.getElementById('jtd-head-nav-stylesheet');
-  if (headNav) {
-    headNav.disabled = true;
-  }
-
-  const activation = document.getElementById('jtd-nav-activation');
-  if (activation) {
-    activation.disabled = true;
+function disableHeadStyleSheet() {
+  if (document.styleSheets[1]) {
+    document.styleSheets[1].disabled = true;
   }
 }
 // Site search
@@ -463,28 +453,11 @@ jtd.setTheme = function(theme) {
 // and not have the slash on GitHub Pages
 
 function navLink() {
-  var pathname = document.location.pathname;
-
-  var navLink = document.getElementById('site-nav').querySelector('a[href="' + pathname + '"]');
-  if (navLink) {
-    return navLink;
+  var href = document.location.pathname;
+  if (href.endsWith('/') && href != '/') {
+    href = href.slice(0, -1);
   }
-
-  // The `permalink` setting may produce navigation links whose `href` ends with `/` or `.html`.
-  // To find these links when `/` is omitted from or added to pathname, or `.html` is omitted:
-
-  if (pathname.endsWith('/') && pathname != '/') {
-    pathname = pathname.slice(0, -1);
-  }
-
-  if (pathname != '/') {
-    navLink = document.getElementById('site-nav').querySelector('a[href="' + pathname + '"], a[href="' + pathname + '/"], a[href="' + pathname + '.html"]');
-    if (navLink) {
-      return navLink;
-    }
-  }
-
-  return null; // avoids `undefined`
+  return document.getElementById('site-nav').querySelector('a[href="' + href + '"], a[href="' + href + '/"]');
 }
 
 // Scroll site-nav to ensure the link to the current page is visible
@@ -492,8 +465,8 @@ function navLink() {
 function scrollNav() {
   const targetLink = navLink();
   if (targetLink) {
-    targetLink.scrollIntoView({ block: "center" });
-    targetLink.removeAttribute('href');
+    const rect = targetLink.getBoundingClientRect();
+    document.getElementById('site-nav').scrollBy(0, rect.top - 3*rect.height);
   }
 }
 
@@ -519,12 +492,10 @@ function activateNav() {
 // Document ready
 
 jtd.onReady(function(){
-  if (document.getElementById('site-nav')) {
-    initNav();
-    activateNav();
-    scrollNav();
-  }
+  initNav();
   initSearch();
+  activateNav();
+  scrollNav();
 });
 
 // Copy button on code
