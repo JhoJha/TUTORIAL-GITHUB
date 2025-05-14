@@ -26,7 +26,9 @@ description: "Una guía completa para dominar Issues, Pull Requests, GitHub Page
 
 ## 1. Introducción
 
-Breve explicación de qué es GitHub y su importancia en el trabajo colaborativo
+GitHub es la plataforma por excelencia para colaborar en proyectos de software. Más que un lugar para guardar código, es una red global que facilita el trabajo en equipo, el control de versiones y la innovación abierta. En esta sección descubrirás cómo GitHub ha transformado la forma de desarrollar software en todo el mundo.
+
+🔗 [Leer más...](docs/introduccion.md)
 
 ---
 
