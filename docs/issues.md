@@ -55,5 +55,3 @@ Título: "Agregar 'mochila' a la lista de compras"
 Descripción:
 
 "no agregué 'mochila' a la lista de compras. Debe añadirse al final de la lista."
-
-Etiqueta: documentation
