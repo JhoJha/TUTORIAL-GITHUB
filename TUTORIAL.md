@@ -262,7 +262,7 @@ Si se tiene el caso de que se quiere contribuir a un repositorio público, pero 
 5. Adjuntar el archivo como enlace.
 * Subirlo antes a una plataforma de almacenamiento como Google Drive.
 6. Revisar y enviar el issue.
-> El autor debera revisar el contenido con git status y visualizara las diferencias con git diff, ejecutar git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]". En caso quiera subir los cambios.bash git diff > cambios.patch ```
+> El autor debera revisar el contenido con git status y visualizara las diferencias con git diff, ejecutar git add . y git commit -m "Aplicados cambios del archivo patch enviado por [tu nombre]". En caso quiera subir los cambios: ``` bash git diff > cambios.patch ```
 
 **Incluir buenas prácticas para revisiones de código.**
 
