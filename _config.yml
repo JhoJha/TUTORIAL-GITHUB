@@ -13,3 +13,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+include:
+  - assets/css
