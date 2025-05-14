@@ -2,6 +2,8 @@
 title: "GitHub Pages"
 nav_order: 7
 parent: "Contenido"
+permalink: /github_pages
+layout: default
 ---
 
 # GitHub Pages

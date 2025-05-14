@@ -2,6 +2,8 @@
 title: "Introducción"
 nav_order: 1
 parent: "Contenido"
+permalink: /introduccion
+layout: default
 ---
 
 # 1. Introducción

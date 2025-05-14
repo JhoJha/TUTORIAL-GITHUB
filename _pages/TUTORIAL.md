@@ -2,6 +2,8 @@
 title: "Tutorial"
 nav_order: 11
 parent: "Contenido"
+permalink: /TUTORIAL
+layout: default
 ---
 
 # 📘 Tutorial de GitHub

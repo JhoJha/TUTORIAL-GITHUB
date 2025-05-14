@@ -2,6 +2,8 @@
 title: "Pull Requests"
 nav_order: 3
 parent: "Contenido"
+permalink: /pull_requests
+layout: default
 ---
 
 # 3. Pull Requests

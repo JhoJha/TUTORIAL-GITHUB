@@ -2,6 +2,8 @@
 title: "Issues"
 nav_order: 2
 parent: "Contenido"
+permalink: /issues
+layout: default
 ---
 
 # 2. Issues

@@ -2,6 +2,8 @@
 title: "Conclusión"
 nav_order: 9
 parent: "Contenido"
+permalink: /conclusion
+layout: default
 ---
 
 # Conclusiones

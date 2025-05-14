@@ -2,6 +2,8 @@
 title: "GitHub Projects"
 nav_order: 4
 parent: "Contenido"
+permalink: /github_projects
+layout: default
 ---
 
 # GitHub Projects
