@@ -12,24 +12,28 @@ permissions:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Setup Ruby
+    steps:
+      - name: Checkout código fuente
+        uses: actions/checkout@v3
+
+      - name: Configurar Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1
 
-      - name: Install dependencies
+      - name: Instalar dependencias
         run: |
           gem install bundler
           bundle install
 
-      - name: Build site with Jekyll
+      - name: Construir sitio con Jekyll
         run: bundle exec jekyll build
 
-      - name: Deploy to GitHub Pages
+      - name: Desplegar a GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: \${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          publish_branch: gh-pages
+          enable_jekyll: true
