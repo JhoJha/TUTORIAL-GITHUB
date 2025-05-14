@@ -1,8 +1,9 @@
+
 # 📘 Tutorial de GitHub
 
 ## 1. Introducción
 
-![Texto alternativo](assets/descar.png)
+![Texto alternativo](../assets/descar.png)
 
 ¿Qué es GitHub?
 **GitHub** es una plataforma en línea donde puedes guardar, compartir y colaborar en código con otras personas usando Git, que es un sistema de control de versiones.
@@ -187,7 +188,7 @@ Etiqueta: documentation
 
 ## 3. Pull Requests
 
-![Texto alternativo](assets/descarg.png)
+![Texto alternativo](../assets/descarg.png)
 
 Un **Pull Request (PR)** en GitHub es una solicitud para fusionar cambios desde una rama (por ejemplo, tr) a otra (normalmente main o master) dentro de un repositorio. Es una herramienta clave en el desarrollo colaborativo de software.
 
@@ -280,13 +281,13 @@ En este tutorial colaborativo, usamos **GitHub Projects** para organizar la crea
 
 ### Vista del proyecto (estado general)
 
-![Vista del tablero de proyecto con tareas abiertas](assets/proyectos_open.png)
+![Vista del tablero de proyecto con tareas abiertas](../assets/proyectos_open.png)
 
 ---
 
 ### Vista del tablero Kanban con tareas distribuidas
 
-![Tablero Kanban con tareas distribuidas por estado](assets/proyectos_board.png)
+![Tablero Kanban con tareas distribuidas por estado](../assets/proyectos_board.png)
 
 ---
 

@@ -1,3 +1,9 @@
+---
+title: "Issues"
+nav_order: 2
+parent: "Contenido"
+---
+
 # 2. Issues
 
 **¿Qué son los Issues?**

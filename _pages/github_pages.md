@@ -1,3 +1,8 @@
+---
+title: "GitHub Pages"
+nav_order: 7
+parent: "Contenido"
+---
 
 # GitHub Pages
 

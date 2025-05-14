@@ -1,9 +1,15 @@
+---
+title: "Conclusión"
+nav_order: 9
+parent: "Contenido"
+---
+
 # Conclusiones
 
 El uso de GitHub no solo transforma la manera en que se gestiona el código, sino también la forma en que los equipos colaboran, se comunican y aprenden juntos. A lo largo de este tutorial, hemos explorado herramientas clave como Issues, Pull Requests, Projects, Gists, GitHub Pages y más. Cada una de estas funciones cumple un rol fundamental dentro del flujo de trabajo moderno en el desarrollo de software.
 
 GitHub es mucho más que un simple repositorio de archivos:  
-Es una **plataforma de colaboración global** que fomenta la transparencia, la organización, la revisión constante del código y la mejora continua. 
+Es una **plataforma de colaboración global** que fomenta la transparencia, la organización, la revisión constante del código y la mejora continua.
 
 Entre los aprendizajes más importantes que este tutorial nos deja, destacamos:
 

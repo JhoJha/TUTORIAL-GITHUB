@@ -1,3 +1,9 @@
+---
+title: "Pull Requests"
+nav_order: 3
+parent: "Contenido"
+---
+
 # 3. Pull Requests
 
 ![Texto alternativo](../assets/descarg.png)

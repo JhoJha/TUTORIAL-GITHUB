@@ -1,3 +1,9 @@
+---
+title: "GitHub Projects"
+nav_order: 4
+parent: "Contenido"
+---
+
 # GitHub Projects
 
 GitHub Projects es una herramienta poderosa para gestionar tareas dentro de un repositorio usando tableros tipo Kanban. Permite organizar visualmente el progreso del equipo, planificar tareas, dar seguimiento a lo pendiente y mantener el enfoque en los objetivos del proyecto.
