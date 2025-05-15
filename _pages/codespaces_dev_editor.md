@@ -80,7 +80,7 @@ Sigue esta estructura para crear nuevos archivos según el tipo de contenido:
 
 ### 📸 Captura de pantalla de Codespaces
 
-![Captura de pantalla de Codespace](assets/codespace.png)
+![Captura de pantalla de Codespace]({{ site.baseurl }}/assets/codespace.png)
 
 ---
 
