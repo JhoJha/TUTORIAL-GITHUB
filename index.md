@@ -73,7 +73,9 @@ Explica qué es y un ejemplo sencillo (por ejemplo, acción que despliegue una w
 
 ## 6. GitHub Gists
 
-Cómo crear snippets de código públicos o privados.
+GitHub Gist es una herramienta para crear y compartir fragmentos de código o notas de texto de forma rápida y sencilla. Permite guardar archivos públicos o privados, colaborar con otros, y es útil para ejemplos, pruebas o documentación sin necesidad de un repositorio completo.
+
+🔗 [Leer más...]({{ site.baseurl }}/gist)
 
 ---
 
