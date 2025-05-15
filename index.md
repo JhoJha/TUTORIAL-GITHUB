@@ -89,7 +89,9 @@ GitHub Pages permite transformar tu repositorio en un sitio web navegable y prof
 
 ## 8. Codespaces y Dev Editor
 
-Qué son, para qué sirven y ejemplos básicos.
+GitHub Codespaces es un entorno de desarrollo online que te permite programar directamente desde el navegador, sin necesidad de instalar VS Code ni herramientas adicionales. Puedes trabajar con Python, R, JavaScript y más, guardando tus archivos y cambios en tu repositorio de GitHub. Es perfecto para programar desde cualquier dispositivo con conexión a internet.
+
+🔗 [Leer más...]({{ site.baseurl }}/codespaces)
 
 ---
 
@@ -105,5 +107,6 @@ Dominar GitHub es mucho más que saber usar comandos: es comprender cómo colabo
 
 👨‍💻 **Jhon Villegas**  
 👨‍💻 **Alonso Coronado**  
+👨‍💻 **Fernando Ruiz**  
 🔗 [Repositorio en GitHub](https://github.com/JhoJha/TUTORIAL-GITHUB)  
 📅 Mayo 2025
