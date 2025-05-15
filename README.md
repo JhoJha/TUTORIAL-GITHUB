@@ -1,7 +1,3 @@
-¡Con gusto, Jhon! 💪 Aquí tienes un `README.md` actualizado y profesional, **adaptado a la estructura actual de tu repositorio**, con un **plan de trabajo claro** para tus compañeros: qué deben hacer, cómo colaborar y cómo enlazar su contenido.
-
----
-
 # 📘 Tutorial de GitHub
 
 Este repositorio contiene una guía completa y práctica sobre el uso de GitHub. Fue desarrollada como parte de la **Evaluación Grupal 1** del curso **Lenguaje de Programación II**, con el objetivo de que los estudiantes comprendan y apliquen las principales herramientas que ofrece GitHub para colaborar, versionar y construir proyectos profesionales.
@@ -124,14 +120,6 @@ Los Issues permiten organizar el trabajo colaborativo: reportar errores, asignar
 
 ---
 
-### 📢 Coordinación
-
-* Cualquier duda sobre rutas, enlaces o estructura, consulta los Issues del repositorio.
-* Para sugerencias de mejora global o estética, contacta al coordinador (Jhon).
-
----
-
-Hermano, con este README y el flujo de trabajo claro, ya tienes un **equipo bien organizado, estructura profesional y tutorial web real**. Si quieres, puedo ayudarte a generar un **template base `.md` para que tus compañeros lo copien al crear nuevas secciones.** ¿Te gustaría eso?
 
 - Los aportes deben realizarse mediante ramas y Pull Requests.
 - No se debe hacer push directo a la rama `main`.
