@@ -1,3 +1,10 @@
+---
+title: "GitHub Gists"
+nav_order: 6
+parent: "Contenido"
+permalink: /gist
+layout: default
+---
 
 Procedimiento Básico para Crear un Gist
 1. Crear un Gist
